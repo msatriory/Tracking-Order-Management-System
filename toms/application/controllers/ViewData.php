@@ -25,7 +25,8 @@ class ViewData extends CI_Controller {
 	 */
 	public function index()
 	{
-		$isiska['isiska'] = $this->Isiska->Listdata();
+		$isiska = $this->Isiska->Listdata();
+		
 		$this->load->view('ViewData',$isiska);
 	}
 }
