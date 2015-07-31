@@ -25,9 +25,16 @@ class ViewData extends CI_Controller {
 	 */
 	public function index()
 	{
+
 		$isiska = $this->Isiska->Listdata();
 		
 		//$this->load->view('ViewData',$isiska);
-		$this->load->view('Viewtoms',$isiska);
+	$this->load->view('Viewtoms',$isiska);
 	}
+
+	function get_tests() {
+    $data = array('dor' => $this->mymodel->getStatus());
+    
+    $this->load->view('ViewToms', $data);
+}
 }
