@@ -27,6 +27,7 @@ class ViewData extends CI_Controller {
 	{
 		$isiska = $this->Isiska->Listdata();
 		
-		$this->load->view('ViewData',$isiska);
+		//$this->load->view('ViewData',$isiska);
+		$this->load->view('Viewtoms',$isiska);
 	}
 }
