@@ -184,12 +184,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <table id="table" class="table table-bordered table-hover table-striped table-fixed table-editable">
               <thead >
                     <tr>
-                        <th margin-left = "50px" colspan="17"> Data Pelanggan</th>
-                        <th colspan="12"> Progress</th>         
+                        <th style="text-align:center" colspan="17"> Data Pelanggan</th>
+                        <th style="text-align:center" colspan="12"> Progress</th>         
                     </tr>
                 </thead>
-    <tbody>
-                <tr>
+    <tbody contenteditable="true">
+                <tr contenteditable="false">
                     <td>No</td>
                     <td>Cust_Name</td>
                     <td>Cust_Ship</td>
@@ -222,25 +222,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <td>Put_in_Service_Date</td>
                 </tr>
                 <?php
-                    foreach($isiska->result() as $data);
-                      {
-                        if($data->Status=="Progress"){
-                        echo "<tr><td td style='text-align:center'>".$data->No."</td></td>";
-                        echo "<td style='text-align:center' text-align:center>".$data->Cust_Name."</td>";
-                        echo "<td style='text-align:center'>".$data->Cust_Ship."</td>";
-                        echo "<td style='text-align:center'>".$data->City."</td>";
-                        echo "<td style='text-align:center'>".$data->Customer_Segmen."</td>";
-                        echo "<td style='text-align:center'>".$data->Product."</td>";
-                        echo "<td style='text-align:center'>".$data->BW_Packet."</td>";
-                        echo "<td style='text-align:center'>".$data->One_Time_Charge."</td>";
-                        echo "<td style='text-align:center'>".$data->Abonemen."</td>";
-                        echo "<td style='text-align:center'>".$data->Sales_by."</td>";
-                        echo "<td style='text-align:center'>".$data->AM_Name."</td>";
-                        echo "<td style='text-align:center'>".$data->AM_Phone."</td>";
-                        echo "<td style='text-align:center'>".$data->Customer_Phone."</td>";
-                        echo "<td style='text-align:center'>".$data->Contract_Date."</td>";
-                        echo "<td style='text-align:center'>".$data->Due_Date_Live."</td>";
-                        echo "<td style='text-align:center'>".$data->Tech_Data."</td>";
+                    foreach($isiska->result() as $data):
+                    if($data->Status=="Closed"){
+                        echo "<tr><td contenteditable='false' style='text-align:center'>".$data->No."</td></td>";
+                        echo "<td contenteditable='false' style='text-align:center' text-align:center>".$data->Cust_Name."</td>";
+                        echo "<td contenteditable='false' style='text-align:center'>".$data->Cust_Ship."</td>";
+                        echo "<td contenteditable='false' style='text-align:center'>".$data->City."</td>";
+                        echo "<td contenteditable='false' style='text-align:center'>".$data->Customer_Segmen."</td>";
+                        echo "<td contenteditable='false' style='text-align:center'>".$data->Product."</td>";
+                        echo "<td contenteditable='false' style='text-align:center'>".$data->BW_Packet."</td>";
+                        echo "<td contenteditable='false' style='text-align:center'>".$data->One_Time_Charge."</td>";
+                        echo "<td contenteditable='false' style='text-align:center'>".$data->Abonemen."</td>";
+                        echo "<td contenteditable='false' style='text-align:center'>".$data->Sales_by."</td>";
+                        echo "<td contenteditable='false' style='text-align:center'>".$data->AM_Name."</td>";
+                        echo "<td contenteditable='false' style='text-align:center'>".$data->AM_Phone."</td>";
+                        echo "<td contenteditable='false' style='text-align:center'>".$data->Customer_Phone."</td>";
+                        echo "<td contenteditable='false' style='text-align:center'>".$data->Contract_Date."</td>";
+                        echo "<td contenteditable='false' style='text-align:center'>".$data->Due_Date_Live."</td>";
+                        echo "<td contenteditable='false' style='text-align:center'>".$data->Tech_Data."</td>";
                         echo "<td style='text-align:center'>".$data->Input_Date."</td>";
                         echo "<td style='text-align:center'>".$data->Speedy_Number."</td>";
                         echo "<td style='text-align:center'>".$data->Date_of_Progress."</td>";
@@ -257,7 +256,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       </tr>
                       <?php
                         }
-                      }
+                      endforeach;
                     ?>
         </tbody>
 
@@ -328,9 +327,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <td>Put_in_Service_Date</td>
                 </tr>
                 <?php
-                    foreach($isiska->result() as $data);
-                      {
-                        if($data->Status=="Closed"){
+                    foreach($isiska->result() as $data):
+                      
+                        if($data->Status=="Progress"){
                         echo "<tr><td td style='text-align:center'>".$data->No."</td></td>";
                         echo "<td style='text-align:center' text-align:center>".$data->Cust_Name."</td>";
                         echo "<td style='text-align:center'>".$data->Cust_Ship."</td>";
@@ -363,7 +362,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       </tr>
                       <?php
                         }
-                      }
+                      endforeach;
                     ?>
         </tbody>
 
