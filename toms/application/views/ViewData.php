@@ -70,7 +70,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             echo "<td style='text-align:center'>".$data->Tenoss_Status."</td>";
 			echo "<td style='text-align:center'>".$data->Status."</td>";
             echo "<td style='text-align:center'>".$data->Additional_Information."</td>";
-            echo "<td style='text-align:center'>".$data->One_Time_Charge."</td>";
             echo "<td style='text-align:center'>".$data->Follow_up."</td>";
             echo "<td style='text-align:center'>".$data->Unit_in_Charge."</td>";
             echo "<td style='text-align:center'>".$data->PIC_Name."</td>";
