@@ -4,7 +4,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 
 <head>
-
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>
+function makeAjaxCall(){
+    $.ajax({
+        type: "post",
+        url: "<?php echo base_url(); ?>index.php/ViewData/Updateisiska",
+        cache: false,               
+        data: $('#formtable').serialize(),
+        success: function(json){                        
+        try{        
+            var obj = jQuery.parseJSON(json);
+            alert( obj['STATUS']);
+                    
+            
+        }
+        catch(e) 
+        {     
+            alert('Exception while request..');
+        }       
+        },
+        error: function(){                      
+            alert('Error while request..');
+        }
+ });
+}
+</script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -181,6 +206,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <div class="panel-body">
             <div class="table-responsive">
+            
                 <table id="table" class="table table-bordered table-hover table-striped table-fixed table-editable">
               <thead >
                     <tr>
@@ -188,7 +214,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <th style="text-align:center" colspan="12"> Progress</th>         
                     </tr>
                 </thead>
+
     <tbody contenteditable="true">
+    <form autocomplete="off" method="post" method="post" name="formtable" id="formtable">
                 <tr contenteditable="false">
                     <td>No</td>
                     <td>Cust_Name</td>
@@ -222,8 +250,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <td>Put_in_Service_Date</td>
                 </tr>
                 <?php
+
                     foreach($isiska->result() as $data):
-                    if($data->Status=="Closed"){
+                    if($data->Status=="Progress"){
                         echo "<tr><td contenteditable='false' style='text-align:center'>".$data->No."</td></td>";
                         echo "<td contenteditable='false' style='text-align:center' text-align:center>".$data->Cust_Name."</td>";
                         echo "<td contenteditable='false' style='text-align:center'>".$data->Cust_Ship."</td>";
@@ -231,7 +260,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         echo "<td contenteditable='false' style='text-align:center'>".$data->Customer_Segmen."</td>";
                         echo "<td contenteditable='false' style='text-align:center'>".$data->Product."</td>";
                         echo "<td contenteditable='false' style='text-align:center'>".$data->BW_Packet."</td>";
-                        echo "<td contenteditable='false' style='text-align:center'>".$data->One_Time_Charge."</td>";
+                        echo "<td contenteditable='false' style='text-align:center'>".$data->One_TIme_Charge."</td>";
                         echo "<td contenteditable='false' style='text-align:center'>".$data->Abonemen."</td>";
                         echo "<td contenteditable='false' style='text-align:center'>".$data->Sales_by."</td>";
                         echo "<td contenteditable='false' style='text-align:center'>".$data->AM_Name."</td>";
@@ -240,28 +269,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         echo "<td contenteditable='false' style='text-align:center'>".$data->Contract_Date."</td>";
                         echo "<td contenteditable='false' style='text-align:center'>".$data->Due_Date_Live."</td>";
                         echo "<td contenteditable='false' style='text-align:center'>".$data->Tech_Data."</td>";
-                        echo "<td style='text-align:center'>".$data->Input_Date."</td>";
-                        echo "<td style='text-align:center'>".$data->Speedy_Number."</td>";
-                        echo "<td style='text-align:center'>".$data->Date_of_Progress."</td>";
-                        echo "<td style='text-align:center'>".$data->ISiska_Status."</td>";
-                        echo "<td style='text-align:center'>".$data->Tenoss_Status."</td>";
-                        echo "<td style='text-align:center'>".$data->Status."</td>";
-                        echo "<td style='text-align:center'>".$data->Additional_Information."</td>";
-                        echo "<td style='text-align:center'>".$data->Follow_up."</td>";
-                        echo "<td style='text-align:center'>".$data->Unit_in_Charge."</td>";
-                        echo "<td style='text-align:center'>".$data->PIC_Name."</td>";
-                        echo "<td style='text-align:center'>".$data->PIC_Number."</td>";
-                        echo "<td style='text-align:center'>".$data->Put_in_Service_Date."</td>";?>            
+                        echo "<td style='text-align:center' value='$data->Input_Date'><input type='text' id='Input_Date' name='Input_Date' value='$data->Input_Date'>".$data->Input_Date."</td>";
+                        echo "<td style='text-align:center' name='Speedy_Number'><input type='text'>".$data->Speedy_Number."</td>";
+                        echo "<td style='text-align:center' name='Date_of_Progress'>".$data->Date_of_Progress."</td>";
+                        echo "<td style='text-align:center' name='ISiska_Status'>".$data->ISiska_Status."</td>";
+                        echo "<td style='text-align:center' name='Tenoss_Status'>".$data->Tenoss_Status."</td>";
+                        echo "<td style='text-align:center' name='Status'>".$data->Status."</td>";
+                        echo "<td style='text-align:center' name='Additional_Information'>".$data->Additional_Information."</td>";
+                        echo "<td style='text-align:center' name='Follow_up'>".$data->Follow_up."</td>";
+                        echo "<td style='text-align:center' name='Unit_in_Charge'>".$data->Unit_in_Charge."</td>";
+                        echo "<td style='text-align:center' name='PIC_Name'>".$data->PIC_Name."</td>";
+                        echo "<td style='text-align:center' name='PIC_Number'>".$data->PIC_Number."</td>";
+                        echo "<td style='text-align:center' name='Put_in_Service_Date'>".$data->Put_in_Service_Date."</td>";
+                        echo "<td style='text-align:center' name='Put_in_Service_Date'>".$data->Put_in_Service_Date."</td>";?>            
 
                       </tr>
                       <?php
                         }
                       endforeach;
                     ?>
+                    <input type="button" onclick="javascript:makeAjaxCall();" value="Submit"/>
         </tbody>
 
 
                 </table>
+                
+                </form>
             </div>
             
         </div>
@@ -329,7 +362,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <?php
                     foreach($isiska->result() as $data):
                       
-                        if($data->Status=="Progress"){
+                        if($data->Status=="Closed"){
                         echo "<tr><td td style='text-align:center'>".$data->No."</td></td>";
                         echo "<td style='text-align:center' text-align:center>".$data->Cust_Name."</td>";
                         echo "<td style='text-align:center'>".$data->Cust_Ship."</td>";
@@ -337,7 +370,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         echo "<td style='text-align:center'>".$data->Customer_Segmen."</td>";
                         echo "<td style='text-align:center'>".$data->Product."</td>";
                         echo "<td style='text-align:center'>".$data->BW_Packet."</td>";
-                        echo "<td style='text-align:center'>".$data->One_Time_Charge."</td>";
+                        echo "<td style='text-align:center'>".$data->One_TIme_Charge."</td>";
                         echo "<td style='text-align:center'>".$data->Abonemen."</td>";
                         echo "<td style='text-align:center'>".$data->Sales_by."</td>";
                         echo "<td style='text-align:center'>".$data->AM_Name."</td>";
@@ -460,6 +493,37 @@ $(function(){
     $('html,body').scrollTo(this.hash,this.hash); 
   });
 });
+
+
+ //no need to specify the language
+
+
+
+/*
+function closeInput(elm) {
+    var td = elm.parentNode;
+    var value = elm.value;
+    td.removeChild(elm);
+    td.innerHTML = value;
+}
+
+function addInput(elm) {
+    if (elm.getElementsByTagName('input').length > 0) return;
+
+    var value = elm.innerHTML;
+    elm.innerHTML = '';
+
+    var input = document.createElement('input');
+    input.setAttribute('type', 'text');
+    input.setAttribute('value', value);
+    input.setAttribute('onBlur', 'closeInput(this)');
+    elm.appendChild(input);
+    input.focus();
+}
+*/
+
+
+
 </script>
 
 </body>
