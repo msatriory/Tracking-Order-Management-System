@@ -25,6 +25,21 @@ class Isiska extends CI_Model {
         $this->load->database();
         $this->db->update('isiska',$updatedata);
     }
+
+    public function index() {
+        //load the helper library
+        $this->load->helper('form');
+        $this->load->helper('url');
+        //Set the message for the first time
+        $data = array('msg' => "Upload File");
+    
+        $data['upload_data'] = '';
+    
+        //load the view/upload.php with $data
+        $this->load->view('ViewToms', $data);
+    
+        
+    }
 }
 
 ?>

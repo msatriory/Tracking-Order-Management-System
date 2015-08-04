@@ -71,4 +71,6 @@ class ViewData extends CI_Controller {
     	die(var_dump($data_siska));
 		$this->Isiska->UpdateDataIsiska($data_siska);
 	}
+
+	
 }
