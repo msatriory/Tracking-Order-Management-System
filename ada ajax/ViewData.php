@@ -86,11 +86,14 @@ class ViewData extends CI_Controller {
 	{   
 	    if($_POST['Status'] == "")
 	    {
+	    	die(var_dump($message));
 	        $message = "You can't send empty text";
 	    }
 	    else
 	    {
 	        $message = $_POST['Status'];
+	        die(var_dump($message));
+	        $this->Isiska->UpdateDataIsiska($message);
 	    }
 	    echo $message;
 	}

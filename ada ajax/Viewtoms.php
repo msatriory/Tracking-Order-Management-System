@@ -139,7 +139,7 @@
                     </div>
                     <div class="pabel-body">
                     <div class="searchbox">Search: <input type="text" id="search" placeholder="Type to search"><i class="fa fa-search"></i></div>
-                    <form method="post" autocomplete="off" id="formtable" name="formtable" enctype="multipart/form-data">
+                    <form method="post" autocomplete="off" id="formtable" name="formtable" enctype="multipart/form-data" action="">
                     <table class="overflow-y">
                         <thead>
             
@@ -234,7 +234,7 @@
         </tbody>
         
                 </table>
-                <input type="submit" id="submitbutton" name="submitbutton" value="Submit" />
+                <input type="submit" id="submitbutton" name="submitbutton" value="Submit" onclick="return dataProcess();" />
         </form> 
                 
         
@@ -364,25 +364,23 @@
     </footer>
 
 
-<script>
-$(document).ready(function(){   
+<script type="text/javascript">
 
-    $('#formtable').on('submit', function (e) {     
-     $.ajax({
-         type: "POST",
-         url: "<?php echo base_url(); ?>" + "index.php/ViewData/post_action", 
-         data: {Status: $("#Status").val()},
-         dataType: "text",  
-         cache:false,
-         success: 
+    function dataProcess(){   
+         alert($("#Status").val());
+        $.ajax({
+            type: "POST",
+            url: "<?php echo base_url(); ?>" + "index.php/ViewData/post_action", 
+            data: {Status: $("#Status").val()},
+            dataType: "text",  
+            cache:false,
+            success: 
               function(data){
                 alert(data);  //as a debugging message.
               }
-          });// you have missed this bracket
-     return false;
- });
- });
-
+            });// you have missed this bracket
+        return false;
+    }
 
 </script>
 
