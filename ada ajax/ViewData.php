@@ -83,17 +83,23 @@ class ViewData extends CI_Controller {
 	}
 
 	function post_action()
-	{   
+	{
+		$this->load->model('Isiska');   
 	    if($_POST['Status'] == "")
 	    {
-	    	die(var_dump($message));
+	    	//die(var_dump($message));
 	        $message = "You can't send empty text";
 	    }
 	    else
 	    {
-	        $message = $_POST['Status'];
+	    	$_POST = array(
+               $No = $_POST['No'],
+	        	$message = $_POST['Status']
+            );
+	    	
+	        die(var_dump($No));
 	        die(var_dump($message));
-	        $this->Isiska->UpdateDataIsiska($message);
+	        $this->Isiska->UpdateDataIsiska($No,$message);
 	    }
 	    echo $message;
 	}

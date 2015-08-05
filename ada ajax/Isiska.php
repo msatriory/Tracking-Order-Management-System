@@ -20,11 +20,21 @@ class Isiska extends CI_Model {
     	return $isiska;
     }
 
-    public function UpdateDataIsiska($updatedata)
+    public function UpdateDataIsiska($No, $updatedata)
     {
         $this->load->database();
-        die(var_dump($updatedata));
-        $this->db->update('isiska',$updatedata);
+        $this->load->helper('form');
+        $this->load->helper('url');
+        //die(var_dump($UpdateDataIsiska));
+       // $this->db->update('isiska',$updatedata);
+        $data = array(
+               'No' => $No,
+               'Status' => $updatedata
+            );
+
+        $this->db->where('No', $No);
+        $this->db->update('mytable', $updatedata); 
+        //$this->db->update('isiska', $updatedatai);
 
     }
 
@@ -33,9 +43,9 @@ class Isiska extends CI_Model {
         $this->load->helper('form');
         $this->load->helper('url');
         //Set the message for the first time
-        $data = array('msg' => "Upload File");
+        //$data = array('msg' => "Upload File");
     
-        $data['upload_data'] = '';
+        //$data['upload_data'] = '';
     
         //load the view/upload.php with $data
         $this->load->view('ViewToms', $data);

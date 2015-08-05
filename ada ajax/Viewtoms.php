@@ -191,7 +191,7 @@
                <?php
                     foreach($isiska->result() as $data):                      
                         if($data->Status=="Progress"){
-                        echo "<tr><td contenteditable='false' style='text-align:center'>".$data->No."</td>";
+                        echo "<tr><td contenteditable='false' style='text-align:center'><input type='text' name='No' id='No' value='$data->No'>".$data->No."</td>";
                         echo "<td contenteditable='false' style='text-align:center' text-align:center>".$data->Cust_Name."</td>";
                         echo "<td contenteditable='false' style='text-align:center'>".$data->Cust_Ship."</td>";
                         echo "<td contenteditable='false' style='text-align:center'>".$data->City."</td>";
@@ -371,7 +371,10 @@
         $.ajax({
             type: "POST",
             url: "<?php echo base_url(); ?>" + "index.php/ViewData/post_action", 
-            data: {Status: $("#Status").val()},
+            data: {
+                No: $("#No").val(), 
+                Status: $("#Status").val()
+        },
             dataType: "text",  
             cache:false,
             success: 
