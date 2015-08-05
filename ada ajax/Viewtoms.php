@@ -139,7 +139,7 @@
                     </div>
                     <div class="pabel-body">
                     <div class="searchbox">Search: <input type="text" id="search" placeholder="Type to search"><i class="fa fa-search"></i></div>
-                    
+                    <form method="post" autocomplete="off" id="formtable" name="formtable" enctype="multipart/form-data">
                     <table class="overflow-y">
                         <thead>
             
@@ -180,7 +180,7 @@
                     <th class="headline_class_name">Put_in_Service_Date</th>
                 </tr>
     </thead>
-    <form method="post" autocomplete="off" id="formtable" name="formtable" enctype="multipart/form-data">
+    
     <tbody id="tabel1" contenteditable="true">
     
     
@@ -232,10 +232,10 @@
                 
         
         </tbody>
-        <input type="submit" id="submitbutton" name="submitbutton" value="Submit" />
-        </form> 
+        
                 </table>
-                
+                <input type="submit" id="submitbutton" name="submitbutton" value="Submit" />
+        </form> 
                 
         
                     </div>
@@ -367,8 +367,7 @@
 <script>
 $(document).ready(function(){   
 
-    $("#submitbutton").click(function()
-    {       
+    $('#formtable').on('submit', function (e) {     
      $.ajax({
          type: "POST",
          url: "<?php echo base_url(); ?>" + "index.php/ViewData/post_action", 
