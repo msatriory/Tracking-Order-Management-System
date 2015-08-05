@@ -165,11 +165,11 @@ body {
    <fieldset>
       <h3 class="fs-subtitle">Memasukkan Data Isiska</h3>
       <input type="text" name="Cust_Name" placeholder="Cust_Name" required />
+      <input type="text" name="Head_Office" placeholder="Head_Office" required />
       <input type="text" name="Cust_Ship" placeholder="Cust_Ship" required />
       <input type="text" name="City" placeholder="City" required />
       <input type="text" name="Customer_Segmen" placeholder="Customer_Segmen" required />
       <input type="text" name="Product" placeholder="Product" required />
-      <input type="text" name="BW_Packet" placeholder="BW_Packet" required />
       <input type="button" name="next" class="next action-button" value="Next" /> 
      <!--  //<input type="submit" name="submit" class="submit action-button" value="Submit" /> -->
       
@@ -177,21 +177,35 @@ body {
   
    <fieldset>
       <h3 class="fs-subtitle">Memasukkan Data Isiska</h3>
+      <input type="text" name="BW_Packet" placeholder="BW_Packet" required />
       <input type="text" name="One_Time_Charge" placeholder="One_Time_Charge" required />
       <input type="text" name="Abonemen" placeholder="Abonemen" required />
       <input type="text" name="Sales_by" placeholder="Sales_by" required />
       <input type="text" name="AM_Name" placeholder="AM_Name" required />
       <input type="text" name="AM_Phone" placeholder="AM_Phone" required />
-      <input type="text" name="Customer_Name" placeholder="Customer_Name" required />  
       <input type="button" name="previous" class="previous action-button" value="Previous" />
       <input type="button" name="next" class="next action-button" value="Next" />
    </fieldset>
    <fieldset>
       <h3 class="fs-subtitle">Memasukkan Data Isiska</h3>
+      <input type="text" name="Customer_Name" placeholder="Customer_Name" required /> 
       <input type="text" name="Customer_Phone" placeholder="Customer_Phone" required />
       <input type="date" style="width:380px" name="Contract_Date" placeholder="Contract_Date" required />
       <input type="date" style="width:380px" name="Due_Date_Live" placeholder="Due_Date_Live" required />
       <input type="text" name="Tech_Data" placeholder="Tech_Data" required />
+
+      <?php echo $msg;?>
+
+
+      
+      <?php if($upload_data != ''): ?>
+      <?php var_dump($upload_data);?>
+      
+      
+      <img scr="<?php echo $upload_data['full_path'];?>">
+      <?php endif;?>
+      <?php echo form_open_multipart('upload_file/upload_it');?>
+      <input type="file" name="userfile" size="20" />
       <input type="button" name="previous" class="previous action-button" value="Previous" />
       <input type="submit" name="submit" class="submit action-button" value="Submit" />
 </form>

@@ -36,5 +36,41 @@ class ViewData extends CI_Controller {
     $data = array('dor' => $this->mymodel->getStatus());
     
     $this->load->view('ViewToms', $data);
-}
+	}
+
+
+	function Updateisiska()
+	{
+		print "asasa";
+		$Input_Date = $this->input->post('Input_Date');
+    	$Speedy_Number = $this->input->post('Speedy_Number');
+    	$Date_of_Progress = $this->input->post('Date_of_Progress');
+    	$ISiska_Status = $this->input->post('ISiska_Status');
+    	$Tenoss_Status = $this->input->post('Tenoss_Status');
+    	$Status = $this->input->post('Status');
+    	$Additional_Information = $this->input->post('Additional_Information');
+    	$Follow_up = $this->input->post('Follow_up');
+    	$Unit_in_Charge = $this->input->post('Unit_in_Charge');
+    	$PIC_Name = $this->input->post('PIC_Name');
+    	$PIC_Number = $this->input->post('PIC_Number');
+    	$Put_in_Service_Date = $this->input->post('Put_in_Service_Date');
+    	$data_siska = array (
+    		'Input_Date' => $Input_Date,
+	    	'Speedy_Number' => $Speedy_Number,
+	    	'Date_of_Progress' => $Date_of_Progress,
+	    	'ISiska_Status' => $ISiska_Status, 
+	    	'Tenoss_Status' => $Tenoss_Status,
+	    	'Status' => $Status,
+	    	'Additional_Information' => $Additional_Information,
+	    	'Follow_up' => $Follow_up,
+	    	'Unit_in_Charge' => $Unit_in_Charge,
+	    	'PIC_Name' => $PIC_Name,
+	    	'PIC_Number' => $PIC_Number,
+	    	'Put_in_Service_Date' => $Put_in_Service_Date
+		);                    
+    	die(var_dump($data_siska));
+		$this->Isiska->UpdateDataIsiska($data_siska);
+	}
+
+	
 }
