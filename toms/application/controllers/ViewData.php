@@ -42,6 +42,13 @@ class ViewData extends CI_Controller {
 	function Updateisiska()
 	{
 		print "asasa";
+		if($_POST):
+ 
+        // do database stuff here to save the comment.
+ 
+        // return false if db failed
+ 
+        // else
 		$Input_Date = $this->input->post('Input_Date');
     	$Speedy_Number = $this->input->post('Speedy_Number');
     	$Date_of_Progress = $this->input->post('Date_of_Progress');
@@ -70,6 +77,31 @@ class ViewData extends CI_Controller {
 		);                    
     	die(var_dump($data_siska));
 		$this->Isiska->UpdateDataIsiska($data_siska);
+		return true;
+ 
+    endif;
+	}
+
+	function post_action()
+	{
+		$this->load->model('Isiska');   
+	    if($_POST['Status'] == "")
+	    {
+	    	//die(var_dump($message));
+	        $message = "You can't send empty text";
+	    }
+	    else
+	    {
+	    	$_POST = array(
+               $No = $_POST['No'],
+	        	$message = $_POST['Status']
+            );
+	    	
+	        die(var_dump($No));
+	        die(var_dump($message));
+	        $this->Isiska->UpdateDataIsiska($No,$message);
+	    }
+	    echo $message;
 	}
 
 	

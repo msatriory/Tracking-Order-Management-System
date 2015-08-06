@@ -188,7 +188,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <?php
                     foreach($isiska->result() as $data):
                     if($data->Status=="Closed"){
-                        echo "<tr><td contenteditable='false' style='text-align:center'>".$data->No."</td></td>";
+                        echo "<tr><td contenteditable='false' style='text-align:center'><input type='text' name='No' id='No' value='$data->No'>".$data->No."</td>";
                         echo "<td contenteditable='false' style='text-align:center' text-align:center>".$data->Cust_Name."</td>";
                         echo "<td contenteditable='false' style='text-align:center'>".$data->Cust_Ship."</td>";
                         echo "<td contenteditable='false' style='text-align:center'>".$data->City."</td>";
@@ -209,7 +209,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         echo "<td style='text-align:center'>".$data->Date_of_Progress."</td>";
                         echo "<td style='text-align:center'>".$data->ISiska_Status."</td>";
                         echo "<td style='text-align:center'>".$data->Tenoss_Status."</td>";
-                        echo "<td style='text-align:center'>".$data->Status."</td>";
+                         echo "<td style='text-align:center'><input type='text' name='Status' id='Status'>".$data->Status."</input></td>";
                         echo "<td style='text-align:center'>".$data->Additional_Information."</td>";
                         echo "<td style='text-align:center'>".$data->Follow_up."</td>";
                         echo "<td style='text-align:center'>".$data->Unit_in_Charge."</td>";
@@ -426,26 +426,26 @@ $(function(){
 });
 </script>
 
-<script>
-$(document).ready(function(){   
+<script type="text/javascript">
 
-    $("#submitbutton").click(function()
-    {       
-     $.ajax({
-         type: "POST",
-         url: "<?php echo base_url(); ?>" + "index.php/ViewData/post_action", 
-         data: {Status: $("#Status").val()},
-         dataType: "text",  
-         cache:false,
-         success: 
+    function dataProcess(){   
+         alert($("#Status").val());
+        $.ajax({
+            type: "POST",
+            url: "<?php echo base_url(); ?>" + "index.php/ViewData/post_action", 
+            data: {
+                No: $("#No").val(), 
+                Status: $("#Status").val()
+        },
+            dataType: "text",  
+            cache:false,
+            success: 
               function(data){
                 alert(data);  //as a debugging message.
               }
-          });// you have missed this bracket
-     return false;
- });
- });
-
+            });// you have missed this bracket
+        return false;
+    }
 
 </script>
 
