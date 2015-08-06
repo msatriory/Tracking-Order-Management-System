@@ -28,12 +28,11 @@ class Isiska extends CI_Model {
         //die(var_dump($UpdateDataIsiska));
        // $this->db->update('isiska',$updatedata);
         $data = array(
-               'No' => $No,
                'Status' => $updatedata
             );
 
         $this->db->where('No', $No);
-        $this->db->update('mytable', $updatedata); 
+        $this->db->update('isiska', $data); 
         //$this->db->update('isiska', $updatedatai);
 
     }
