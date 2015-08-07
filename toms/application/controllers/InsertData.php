@@ -32,7 +32,7 @@ class InsertData extends CI_Controller {
 
     function isiska()
     {
-    	print "asasa";
+    	//print "asasa";
     	$Cust_Name = $this->input->post('Cust_Name');
     	$Cust_Ship = $this->input->post('Cust_Ship');
     	$City = $this->input->post('City');
@@ -70,4 +70,5 @@ class InsertData extends CI_Controller {
 
 		$this->Isiska->SetDataIsiska($data_siska);
     }
+
 }
