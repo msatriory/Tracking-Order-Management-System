@@ -24,6 +24,12 @@ class Isiska extends CI_Model {
     	$isiska['isiska']=$this->db->query("SELECT * from isiska order by No");
     	return $isiska;
     }
+    public function Listdataam()
+    {
+        $this->load->database();
+        $amanager['amanager']=$this->db->query("SELECT * from amanager order by NIK_AM");
+        return $amanager;
+    }
 }
 
 ?>
