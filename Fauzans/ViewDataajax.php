@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class ViewData extends CI_Controller {
+class ViewDataajax extends CI_Controller {
 	function __construct()
     {
         parent::__construct();
@@ -29,13 +29,13 @@ class ViewData extends CI_Controller {
 		$isiska = $this->Isiska->Listdata();
 		
 		//$this->load->view('ViewData',$isiska);
-	$this->load->view('Viewtoms',$isiska);
+	$this->load->view('ViewTomsajax',$isiska);
 	}
 
 	function get_tests() {
     $data = array('dor' => $this->mymodel->getStatus());
     
-    $this->load->view('ViewToms', $data);
+    $this->load->view('ViewTomsajax', $data);
 	}
 
 

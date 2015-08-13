@@ -1,6 +1,6 @@
 <?php
 
-class Isiska extends CI_Model {
+class Isiskaajax extends CI_Model {
     function __construct()
     {
         // Call the Model constructor
@@ -46,7 +46,7 @@ class Isiska extends CI_Model {
         //$data['upload_data'] = '';
     
         //load the view/upload.php with $data
-        $this->load->view('ViewToms', $data);
+        $this->load->view('ViewTomsajax', $data);
     
         
     }

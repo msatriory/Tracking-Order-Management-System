@@ -12,41 +12,95 @@
     <title>TELKOM INDONESIA | TOMS</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
 
     <!-- DataTables CSS -->
-    <link href="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
 
     <!-- DataTables Responsive CSS -->
-    <link href="../bower_components/datatables-responsive/css/dataTables.responsive.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/bower_components/datatables-responsive/css/dataTables.responsive.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/dist/css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url(); ?>assets/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom CSS Regin -->
     <!-- <link href="../bower_components/custom/bootstrap.min.css" rel="stylesheet"> -->
-    <link href="../bower_components/custom/customregin.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/bower_components/custom/customregin.css" rel="stylesheet">
     
-        <link rel="stylesheet" type="text/css" href="../bower_components/custom/component.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/bower_components/custom/component.css" />
 
           <!-- <link href="../bower_components/custom/landing-page.css" rel="stylesheet"> -->
 
     <!-- Custom Fonts -->
-    <!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+     HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<style type="text/css">
+    @font-face {
+    font-family:'Lato';
+    font-style:normal;
+    font-weight:300;
+    src:local('Lato Light'),local(Lato-Light),
+    url("<?php echo base_url(); ?>assets/woff/lato1.woff2") format("woff2"),
+    url("<?php echo base_url(); ?>assets/woff/lato1.woff") format("woff")
+}
 
+@font-face {
+    font-family:'Lato';
+    font-style:normal;
+    font-weight:400;
+    src:local('Lato Regular'),local(Lato-Regular),
+    url("<?php echo base_url(); ?>assets/woff/lato2.woff2") format("woff2"),
+    url("<?php echo base_url(); ?>assets/woff/lato2.woff") format("woff")
+}
+
+@font-face {
+    font-family:'Lato';
+    font-style:normal;
+    font-weight:700;
+    src:local('Lato Bold'),local(Lato-Bold),
+    url("<?php echo base_url(); ?>assets/woff/lato3.woff2") format("woff2"),
+    url("<?php echo base_url(); ?>assets/woff/lato3.woff") format("woff")
+}
+
+@font-face {
+    font-family:'Lato';
+    font-style:italic;
+    font-weight:300;
+    src:local('Lato Light Italic'),local(Lato-LightItalic),
+    url("<?php echo base_url(); ?>assets/woff/lato4.woff2") format("woff2"),
+    url("<?php echo base_url(); ?>assets/woff/lato4.woff") format("woff")
+}
+
+@font-face {
+    font-family:'Lato';
+    font-style:italic;
+    font-weight:400;
+    src:local('Lato Italic'),local(Lato-Italic),
+    url("<?php echo base_url(); ?>assets/woff/lato5.woff2") format("woff2"),
+    url("<?php echo base_url(); ?>assets/woff/lato5.woff") format("woff")
+}
+
+@font-face {
+    font-family:'Lato';
+    font-style:italic;
+    font-weight:700;
+    src:local('Lato Bold Italic'),local(Lato-BoldItalic),
+    url("<?php echo base_url(); ?>assets/woff/lato6.woff2") format("woff2"),
+    url("<?php echo base_url(); ?>assets/woff/lato6.woff") format("woff")
+}
+</style>
 </head>
 
 <body>
@@ -984,21 +1038,21 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/bower_components/jquery/dist/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- Metis Menu Plugin JavaScript -->
-    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/bower_components/metisMenu/dist/metisMenu.min.js"></script>
 
 
     <!-- DataTables JavaScript -->
-    <script src="../bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
-    <script src="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/sb-admin-2.js"></script>
+    <script src="<?php echo base_url(); ?>assets/dist/js/sb-admin-2.js"></script>
 
     <!-- Page-Level Demo Scripts - Tables - Use for reference -->
     <script>
@@ -1010,15 +1064,15 @@
     </script>
 
 <!-- regin -->
-<script src="js/jquery.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
 
-  <script src="js/search.js"></script>
- <script src="js/cari.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
-        <script src="js/jquery.stickyheader.js"></script>
+  <script src="<?php echo base_url(); ?>assets/js/search.js"></script>
+ <script src="<?php echo base_url(); ?>assets/js/cari.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/jquery.ba-throttle-debounce.min.js"></script>
+        <script src="<?php echo base_url(); ?>assets/js/jquery.stickyheader.js"></script>
 
 
 </body>
