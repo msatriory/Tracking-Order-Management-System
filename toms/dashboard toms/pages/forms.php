@@ -9,13 +9,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>TELKOM INDONESIA | TOMS</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <!-- <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet"> -->
 
     <!-- Custom CSS -->
     <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
@@ -23,9 +22,24 @@
     <!-- Custom Fonts -->
     <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+
+<title>Input Data I-Siska</title>
+<!-- cdn for modernizr, if you haven't included it already -->
+<script src="http://cdn.jsdelivr.net/webshim/1.12.4/extras/modernizr-custom.js"></script>
+<!-- polyfiller file to detect and load polyfills -->
+<script src="http://cdn.jsdelivr.net/webshim/1.12.4/polyfiller.js"></script>
+<script>
+  webshims.setOptions('waitReady', false);
+  webshims.setOptions('forms-ext', {types: 'date'});
+  webshims.polyfill('forms forms-ext');
+</script>
+
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
+
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -112,10 +126,10 @@
                         
                         
                         <li>
-                            <a href="tables.html"><i class="fa fa-table fa-fw"></i> View & Edit Data</a>
+                            <a href="tables.php"><i class="fa fa-table fa-fw"></i> View & Edit Data</a>
                         </li>
                         <li>
-                            <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Input Data</a>
+                            <a href="forms.php"><i class="fa fa-edit fa-fw"></i> Input Data</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-sitemap fa-fw"></i> Akun Manager<span class="fa arrow"></span></a>
@@ -154,9 +168,114 @@
         <div id="page-wrapper">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="page-header">Blank</h1>
+                    <h1 class="page-header">Memasukkan Data Isiska</h1>       
+                    <form role="form">
+            <div class="col-md-4" style="border-right: 1px solid #d7d7d8;">
+                <div class="form-group">
+                    <label>Customer Name</label>
+                    <div class="input-group col-md-12">
+                        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Cust_Name">
                     </div>
+                </div>
+                <div class="form-group">
+                    <label >Cust_Ship</label>
+                    <div class="input-group col-md-12">
+                        <input type="email" class="form-control" id="InputEmailFirst" name="InputEmail" placeholder="Cust_Ship">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >City</label>
+                    <div class="input-group col-md-12">
+                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="City">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >Customer_Segmen</label>
+                    <div class="input-group col-md-12">
+                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="Customer_Segmen">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >Product</label>
+                    <div class="input-group col-md-12">
+                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="Product">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >BW_Packet</label>
+                    <div class="input-group col-md-12">
+                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="BW_Packet">
+                    </div>
+                </div>
+            </div>
+
+            <div  class="col-md-4" style="border-right: 1px solid #d7d7d8;">
+                <div class="form-group">
+                    <label >One_Time_Charge</label>
+                    <div class="input-group col-md-12">
+                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="One_Time_Charge">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >Abonemen</label>
+                    <div class="input-group col-md-12">
+                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="Abonemen">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >Sales_by</label>
+                    <div class="input-group col-md-12">
+                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="Sales_by">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >AM_Name</label>
+                    <div class="input-group col-md-12">
+                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="AM_Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >AM_Phone</label>
+                    <div class="input-group col-md-12">
+                        <input type="email" class="form-control" id="InputEmailSecond" name="AM_Phone" placeholder="AM_Phone">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >Customer_Name</label>
+                    <div class="input-group col-md-12">
+                        <input type="email" class="form-control" id="InputEmailSecond" name="Customer_Name" placeholder="Customer_Name">
+                    </div>
+                </div>
+            </div>
+            <div  class="col-md-4">
+                <div class="form-group">
+                    <label >Customer_Phone</label>
+                    <div class="input-group col-md-12">
+                        <input type="email" class="form-control" id="InputEmailSecond" name="Customer_Phone" placeholder="Customer_Phone">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >Contract_Date</label>
+                    <div class="input-group col-md-12">
+                        <input type="date" class="form-control" id="InputEmailSecond" name="Contract_Date" placeholder="Contract_Date">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >Due_Date_Live</label>
+                    <div class="input-group col-md-12">
+                        <input type="date" class="form-control" id="InputEmailSecond" name="Due_Date_Live" placeholder="Due_Date_Live">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label >Tech_Data</label>
+                    <div class="input-group col-md-12">
+                        <input type="email" class="form-control" id="InputEmailSecond" name="Tech_Data" placeholder="Tech_Data">
+                    </div>
+                </div>
+                <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info col-md-12">
+            </div>
+        </form>
+
                     <!-- /.col-lg-12 -->
                 </div>
                 <!-- /.row -->

@@ -32,24 +32,13 @@
     <!-- Custom CSS Regin -->
     <!-- <link href="../bower_components/custom/bootstrap.min.css" rel="stylesheet"> -->
     <link href="../bower_components/custom/customregin.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" type="text/css" href="../bower_components/custom/components/icon.css">
-    <link rel="stylesheet" type="text/css" href="../bower_components/custom/components/useful.css">
-    <link rel="stylesheet" type="text/css" href="../bower_components/custom/components/reset.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="../bower_components/custom/components/form.css"> -->
-
-        <link rel="stylesheet" type="text/css" href="../bower_components/custom/icon.css">
-    <link rel="stylesheet" type="text/css" href="../bower_components/custom/useful.css">
-    <link rel="stylesheet" type="text/css" href="../bower_components/custom/reset.css">
-    <link rel="stylesheet" type="text/css" href="../bower_components/custom/form.css">
-    <link rel="stylesheet" type="text/css" href="../bower_components/custom/semantic.css">
-    <link rel="stylesheet" type="text/css" href="../bower_components/custom/normalize.css" />
-        <link rel="stylesheet" type="text/css" href="../bower_components/custom/demo.css" />
+    
         <link rel="stylesheet" type="text/css" href="../bower_components/custom/component.css" />
 
-          <link href="../bower_components/custom/landing-page.css" rel="stylesheet">
+          <!-- <link href="../bower_components/custom/landing-page.css" rel="stylesheet"> -->
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -140,10 +129,10 @@
                         
                         
                         <li>
-                            <a href="tables.html"><i class="fa fa-table fa-fw"></i> View & Edit Data</a>
+                            <a href="tables.php"><i class="fa fa-table fa-fw"></i> View & Edit Data</a>
                         </li>
                         <li>
-                            <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Input Data</a>
+                            <a href="forms.php"><i class="fa fa-edit fa-fw"></i> Input Data</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-sitemap fa-fw"></i> Akun Manager<span class="fa arrow"></span></a>
