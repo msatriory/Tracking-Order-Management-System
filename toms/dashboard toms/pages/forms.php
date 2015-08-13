@@ -11,16 +11,16 @@
 
 
     <!-- Bootstrap Core CSS -->
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
     <!-- <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet"> -->
 
     <!-- Custom CSS -->
-    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/dist/css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url(); ?>assets/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 
 <title>Input Data I-Siska</title>
@@ -135,7 +135,7 @@
                             <a href="forms.php"><i class="fa fa-edit fa-fw"></i> Input Data</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-sitemap fa-fw"></i> Akun Manager<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-sitemap fa-fw"></i> Account Manager<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="#">Add Manager Account</a>
@@ -151,10 +151,10 @@
                             <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="blank.html">Blank Page</a>
+                                    <a href="blank.php">lank Page</a>
                                 </li>
                                 <li>
-                                    <a href="login.html">Login Page</a>
+                                    <a href="login.php">Login Page</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -172,42 +172,42 @@
             <div class="container-fluid">
                 <div class="row">
                     <h1 class="page-header">Memasukkan Data Isiska</h1>       
-                    <form role="form">
+                    <form role="form" action="index.php/InsertData/isiska" method="post">
             <div class="col-md-4" style="border-right: 1px solid #d7d7d8;">
                 <div class="form-group">
                     <label>Customer Name</label>
                     <div class="input-group col-md-12">
-                        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Cust_Name">
+                        <input type="text" class="form-control" name="Cust_Name" id="Cust_Name" placeholder="Cust_Name">
                     </div>
                 </div>
                 <div class="form-group">
                     <label >Cust_Ship</label>
                     <div class="input-group col-md-12">
-                        <input type="email" class="form-control" id="InputEmailFirst" name="InputEmail" placeholder="Cust_Ship">
+                        <input type="email" class="form-control" id="Cust_Ship" name="Cust_Ship" placeholder="Cust_Ship">
                     </div>
                 </div>
                 <div class="form-group">
                     <label >City</label>
                     <div class="input-group col-md-12">
-                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="City">
+                        <input type="email" class="form-control" id="City" name="City" placeholder="City">
                     </div>
                 </div>
                 <div class="form-group">
                     <label >Customer_Segmen</label>
                     <div class="input-group col-md-12">
-                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="Customer_Segmen">
+                        <input type="email" class="form-control" id="Customer_Segmen" name="Customer_Segmen" placeholder="Customer_Segmen">
                     </div>
                 </div>
                 <div class="form-group">
                     <label >Product</label>
                     <div class="input-group col-md-12">
-                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="Product">
+                        <input type="email" class="form-control" id="Product" name="Product" placeholder="Product">
                     </div>
                 </div>
                 <div class="form-group">
                     <label >BW_Packet</label>
                     <div class="input-group col-md-12">
-                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="BW_Packet">
+                        <input type="email" class="form-control" id="BW_Packet" name="BW_Packet" placeholder="BW_Packet">
                     </div>
                 </div>
             </div>
@@ -216,37 +216,37 @@
                 <div class="form-group">
                     <label >One_Time_Charge</label>
                     <div class="input-group col-md-12">
-                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="One_Time_Charge">
+                        <input type="email" class="form-control" id="One_Time_Charge" name="One_Time_Charge" placeholder="One_Time_Charge">
                     </div>
                 </div>
                 <div class="form-group">
                     <label >Abonemen</label>
                     <div class="input-group col-md-12">
-                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="Abonemen">
+                        <input type="email" class="form-control" id="Abonemen" name="Abonemen" placeholder="Abonemen">
                     </div>
                 </div>
                 <div class="form-group">
                     <label >Sales_by</label>
                     <div class="input-group col-md-12">
-                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="Sales_by">
+                        <input type="email" class="form-control" id="Sales_by" name="Sales_by" placeholder="Sales_by">
                     </div>
                 </div>
                 <div class="form-group">
                     <label >AM_Name</label>
                     <div class="input-group col-md-12">
-                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="AM_Name">
+                        <input type="email" class="form-control" id="AM_Name" name="AM_Name" placeholder="AM_Name">
                     </div>
                 </div>
                 <div class="form-group">
                     <label >AM_Phone</label>
                     <div class="input-group col-md-12">
-                        <input type="email" class="form-control" id="InputEmailSecond" name="AM_Phone" placeholder="AM_Phone">
+                        <input type="email" class="form-control" id="AM_Phone" name="AM_Phone" placeholder="AM_Phone">
                     </div>
                 </div>
                 <div class="form-group">
                     <label >Customer_Name</label>
                     <div class="input-group col-md-12">
-                        <input type="email" class="form-control" id="InputEmailSecond" name="Customer_Name" placeholder="Customer_Name">
+                        <input type="email" class="form-control" id="Customer_Name" name="Customer_Name" placeholder="Customer_Name">
                     </div>
                 </div>
             </div>
@@ -254,25 +254,25 @@
                 <div class="form-group">
                     <label >Customer_Phone</label>
                     <div class="input-group col-md-12">
-                        <input type="email" class="form-control" id="InputEmailSecond" name="Customer_Phone" placeholder="Customer_Phone">
+                        <input type="email" class="form-control" id="Customer_Phone" name="Customer_Phone" placeholder="Customer_Phone">
                     </div>
                 </div>
                 <div class="form-group">
                     <label >Contract_Date</label>
                     <div class="input-group col-md-12">
-                        <input type="date" class="form-control" id="InputEmailSecond" name="Contract_Date" placeholder="Contract_Date">
+                        <input type="date" class="form-control" id="Contract_Date" name="Contract_Date" placeholder="Contract_Date">
                     </div>
                 </div>
                 <div class="form-group">
                     <label >Due_Date_Live</label>
                     <div class="input-group col-md-12">
-                        <input type="date" class="form-control" id="InputEmailSecond" name="Due_Date_Live" placeholder="Due_Date_Live">
+                        <input type="date" class="form-control" id="Due_Date_Live" name="Due_Date_Live" placeholder="Due_Date_Live">
                     </div>
                 </div>
                 <div class="form-group">
                     <label >Tech_Data</label>
                     <div class="input-group col-md-12">
-                        <input type="email" class="form-control" id="InputEmailSecond" name="Tech_Data" placeholder="Tech_Data">
+                        <input type="email" class="form-control" id="Tech_Data" name="Tech_Data" placeholder="Tech_Data">
                     </div>
                 </div>
                 <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info col-md-12">
