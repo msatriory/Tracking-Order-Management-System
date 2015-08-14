@@ -161,17 +161,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                         
                                                     </tr>
                                                     <?php
-                                                        foreach($amanager->result() as $data):
-                                                            echo "<tr><td contenteditable='false' style='text-align:center'>".$data->NIK_AM."</td></td>";
-                                                            echo "<td contenteditable='false' style='text-align:center' text-align:center>".$data->Nama_AM."</td>";
-                                                            echo "<td contenteditable='false' style='text-align:center'>".$data->phone_AM."</td>";
-                                                            ?>
-                                                          </tr>
-                                                          <?php
-                                                            
-                                                          endforeach;
-                                                        ?>
-                                                     </tbody>
+                                foreach($amanager->result() as $data):
+                                    echo "<tr><td contenteditable='false' style='text-align:center'>".$data->NIK_AM."</td></td>";
+                                    echo "<td contenteditable='false' style='text-align:center' text-align:center>".$data->Nama_AM."</td>";
+                                    echo "<td contenteditable='false' style='text-align:center'>".$data->phone_AM."</td>";
+                                    ?>
+                                  </tr>
+                                  <?php
+
+                                  endforeach;
+                                ?>
+                             </tbody>
 
                                                                                               </table>
                                         </form>

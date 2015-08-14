@@ -26,7 +26,7 @@ class InsertDataAm extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('InsertAmanager');
+		$this->load->view('FormAM');
 
 	}
 
@@ -42,6 +42,6 @@ class InsertDataAm extends CI_Controller {
 	    	'phone_AM' => $phone_AM
 	    );
 	    $this->Isiska->SetDataAm($data_am);
-
+        $this->load->view('FormAM');
     }
 }

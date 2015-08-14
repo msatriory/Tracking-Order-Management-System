@@ -7,6 +7,7 @@ class InsertData extends CI_Controller {
         parent::__construct();
         $this->load->helper('url');
         $this->load->model('Isiska');
+        $this->load->helper('form');
     }
 
 	/**
@@ -26,13 +27,16 @@ class InsertData extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('InsertData');
+		$this->load->view('FormIsisca');
 
 	}
 
     function isiska()
     {
-    	//print "asasa";
+    	$this->load->helper('url');
+        $this->load->model('Isiska');
+        $this->load->helper('form');
+    	print "asasa";
     	$Cust_Name = $this->input->post('Cust_Name');
     	$Cust_Ship = $this->input->post('Cust_Ship');
     	$City = $this->input->post('City');
@@ -49,6 +53,42 @@ class InsertData extends CI_Controller {
     	$Contract_Date = $this->input->post('Contract_Date');
     	$Due_Date_Live = $this->input->post('Due_Date_Live');
     	$Tech_Data = $this->input->post('Tech_Data');
+    	//start of file upload code
+    			//$new_name = rename("$_FILES['userfile']['name']", "$Cust_Name")
+				//$config['file_name'] = $new_name;
+    			$path = "./uploads/$Cust_Name";
+
+			    if(!is_dir($path)) //create the folder if it's not already exists
+			    {
+			      mkdir($path,0755,TRUE);
+			  	}
+
+                $config['upload_path'] = "$path";
+                $config['allowed_types'] = 'pdf|gif|jpg|jpeg|png|zip|rar|doc';
+                $extention = pathinfo($_FILES["userfile"]["name"] ,PATHINFO_EXTENSION);
+				$new_name = "Contract-" . "$Contract_Date-" . "$Cust_Name." . $extention ;
+				var_dump($new_name);
+				$config['file_name'] = $new_name;
+                $this->load->library('upload', $config);
+                $this->upload->initialize($config);
+                //$this->upload->do_upload();
+                //$dataupload = $this->upload->data();
+                if($this->upload->do_upload())
+				{
+					$data = array('upload_data' => $this->upload->data());
+           // $new_data='Cust_Name'+'.pdf';
+            //$new_imgpath=$img_data['file_path'].$new_imgname;
+            //rename($img_data['full_path'], $new_imgpath);
+
+
+					$this->load->view('upload_success',$data);
+				}
+                else
+				{
+					$error = array('error' => $this->upload->display_errors());
+					$this->load->view('file_view', $error);
+				}
+                //end of file upload code
     	$data_siska = array (
     		'Cust_Name' => $Cust_Name,
 	    	'Cust_Ship' => $Cust_Ship,
@@ -66,6 +106,7 @@ class InsertData extends CI_Controller {
 	    	'Contract_Date' => $Contract_Date,
 	    	'Due_Date_Live' => $Due_Date_Live,
 	    	'Tech_Data' => $Tech_Data
+	    	//'dataupload'=> $dataupload
 		);                    
 
 		$this->Isiska->SetDataIsiska($data_siska);

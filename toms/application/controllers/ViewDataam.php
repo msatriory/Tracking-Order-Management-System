@@ -31,7 +31,7 @@ class ViewDataam extends CI_Controller {
 		$amanager = $this->Isiska->ListdataAM();
 		
 		//$this->load->view('ViewData',$isiska);
-		$this->load->view('Viewdataam',$amanager);
+		$this->load->view('tablesam',$amanager);
 	}
 	
 }
