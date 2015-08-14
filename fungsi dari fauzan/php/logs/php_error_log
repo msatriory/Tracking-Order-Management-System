@@ -1,0 +1,279 @@
+[29-Jul-2015 06:01:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 26
+[29-Jul-2015 06:02:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 26
+[29-Jul-2015 06:02:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 26
+[29-Jul-2015 06:02:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 26
+[29-Jul-2015 06:04:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 26
+[29-Jul-2015 06:04:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 26
+[29-Jul-2015 06:05:14 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 26
+[29-Jul-2015 06:19:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<' in C:\xampp\htdocs\toms\application\views\InsertData.php on line 227
+[29-Jul-2015 06:25:58 Europe/Berlin] PHP Fatal error:  Call to undefined method CI_Output::minify() in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 23
+[29-Jul-2015 06:28:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'Output' (T_STRING), expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 29
+[29-Jul-2015 06:28:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'Output' (T_STRING), expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 29
+[29-Jul-2015 06:28:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'Output' (T_STRING), expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 29
+[29-Jul-2015 06:32:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'Output' (T_STRING), expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 29
+[29-Jul-2015 06:32:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'Output' (T_STRING), expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 29
+[29-Jul-2015 08:07:46 Europe/Berlin] PHP Fatal error:  Call to a member function insert() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 7
+[29-Jul-2015 08:13:48 Europe/Berlin] PHP Fatal error:  Call to a member function insert() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 7
+[29-Jul-2015 08:14:32 Europe/Berlin] PHP Fatal error:  Call to a member function insert() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 7
+[29-Jul-2015 08:16:42 Europe/Berlin] PHP Fatal error:  Call to a member function insert() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 7
+[29-Jul-2015 08:18:05 Europe/Berlin] PHP Fatal error:  Call to a member function insert() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 7
+[29-Jul-2015 08:22:11 Europe/Berlin] PHP Fatal error:  Non-abstract method Isiska::SetDataIsiska() must contain body in C:\xampp\htdocs\toms\application\models\Isiska.php on line 4
+[29-Jul-2015 08:22:35 Europe/Berlin] PHP Fatal error:  Non-abstract method Isiska::SetDataIsiska() must contain body in C:\xampp\htdocs\toms\application\models\Isiska.php on line 4
+[29-Jul-2015 08:23:33 Europe/Berlin] PHP Fatal error:  Call to a member function insert() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 7
+[29-Jul-2015 08:24:41 Europe/Berlin] PHP Fatal error:  Call to a member function insert() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 7
+[29-Jul-2015 08:29:44 Europe/Berlin] PHP Fatal error:  Call to a member function insert() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 12
+[29-Jul-2015 08:37:44 Europe/Berlin] PHP Fatal error:  Call to a member function insert() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 12
+[29-Jul-2015 08:39:47 Europe/Berlin] PHP Fatal error:  Call to a member function insert() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 13
+[29-Jul-2015 08:40:27 Europe/Berlin] PHP Fatal error:  Call to a member function insert() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 12
+[29-Jul-2015 08:42:22 Europe/Berlin] PHP Fatal error:  Call to a member function insert() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 12
+[29-Jul-2015 08:42:26 Europe/Berlin] PHP Fatal error:  Call to a member function insert() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 12
+[29-Jul-2015 08:42:56 Europe/Berlin] PHP Fatal error:  Call to a member function insert() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 12
+[29-Jul-2015 08:49:02 Europe/Berlin] PHP Fatal error:  Call to undefined method CI_Model::Model() in C:\xampp\htdocs\toms\application\models\Isiska.php on line 11
+[29-Jul-2015 08:50:00 Europe/Berlin] PHP Fatal error:  Call to undefined method CI_Model::Model() in C:\xampp\htdocs\toms\application\models\Isiska.php on line 8
+[29-Jul-2015 10:41:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 32
+[29-Jul-2015 11:08:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 31
+[29-Jul-2015 11:12:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 31
+[29-Jul-2015 11:12:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 31
+[29-Jul-2015 11:12:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 31
+[29-Jul-2015 11:12:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 31
+[29-Jul-2015 11:14:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 31
+[29-Jul-2015 11:14:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 31
+[29-Jul-2015 11:15:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in C:\xampp\htdocs\toms\application\models\Isiska.php on line 15
+[29-Jul-2015 11:15:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in C:\xampp\htdocs\toms\application\models\Isiska.php on line 16
+[29-Jul-2015 11:15:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in C:\xampp\htdocs\toms\application\models\Isiska.php on line 16
+[29-Jul-2015 11:15:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in C:\xampp\htdocs\toms\application\models\Isiska.php on line 16
+[29-Jul-2015 11:15:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in C:\xampp\htdocs\toms\application\models\Isiska.php on line 16
+[29-Jul-2015 11:16:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in C:\xampp\htdocs\toms\application\models\Isiska.php on line 16
+[29-Jul-2015 11:18:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'i' (T_STRING) in C:\xampp\htdocs\toms\application\models\Isiska.php on line 19
+[29-Jul-2015 11:25:08 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 29
+[29-Jul-2015 11:25:19 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 71
+[29-Jul-2015 11:27:03 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 11:27:45 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 29
+[29-Jul-2015 11:27:57 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 11:29:21 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\models\Isiska.php on line 20
+[29-Jul-2015 11:33:50 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 17
+[29-Jul-2015 11:34:09 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 17
+[29-Jul-2015 11:34:10 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 17
+[29-Jul-2015 11:34:14 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 17
+[29-Jul-2015 11:34:15 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 17
+[29-Jul-2015 11:35:08 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 29
+[29-Jul-2015 11:35:26 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 11:37:56 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 11:41:15 Europe/Berlin] PHP Fatal error:  Call to a member function result_array() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 11:41:32 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 11:49:18 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 29
+[29-Jul-2015 11:56:36 Europe/Berlin] PHP Fatal error:  Call to a member function row() on array in C:\xampp\htdocs\toms\application\models\Isiska.php on line 20
+[29-Jul-2015 11:59:22 Europe/Berlin] PHP Fatal error:  Call to a member function row() on array in C:\xampp\htdocs\toms\application\models\Isiska.php on line 20
+[29-Jul-2015 12:00:04 Europe/Berlin] PHP Fatal error:  Call to a member function row() on array in C:\xampp\htdocs\toms\application\models\Isiska.php on line 20
+[29-Jul-2015 12:01:03 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\models\Isiska.php on line 20
+[29-Jul-2015 12:01:49 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 12:02:23 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 12:03:27 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 12:03:28 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 12:03:29 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 12:03:41 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 30
+[29-Jul-2015 12:03:43 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 30
+[29-Jul-2015 12:03:55 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 30
+[29-Jul-2015 12:05:08 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 30
+[29-Jul-2015 12:06:00 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 12:18:44 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 12:21:43 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\models\Isiska.php on line 20
+[29-Jul-2015 12:23:36 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 30
+[29-Jul-2015 12:23:53 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 30
+[29-Jul-2015 12:24:05 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 12:24:59 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 12:25:48 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\models\Isiska.php on line 20
+[29-Jul-2015 12:26:33 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\models\Isiska.php on line 20
+[29-Jul-2015 12:26:34 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\models\Isiska.php on line 20
+[29-Jul-2015 12:26:46 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 30
+[29-Jul-2015 12:27:15 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 49
+[29-Jul-2015 12:29:59 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[29-Jul-2015 12:30:26 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[29-Jul-2015 12:30:50 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\models\Isiska.php on line 20
+[29-Jul-2015 12:32:26 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 04:29:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 32
+[30-Jul-2015 04:51:33 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\models\Isiska.php on line 20
+[30-Jul-2015 04:51:47 Europe/Berlin] PHP Fatal error:  Call to a member function row() on array in C:\xampp\htdocs\toms\application\models\Isiska.php on line 20
+[30-Jul-2015 04:55:24 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 30
+[30-Jul-2015 05:48:53 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 05:49:33 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 05:49:34 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 05:51:04 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 05:53:01 Europe/Berlin] PHP Fatal error:  Call to a member function num_rows() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 05:53:02 Europe/Berlin] PHP Fatal error:  Call to a member function num_rows() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 05:55:38 Europe/Berlin] PHP Fatal error:  Call to a member function num_rows() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 20
+[30-Jul-2015 05:56:00 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 06:02:29 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 06:02:38 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 06:07:08 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[30-Jul-2015 06:07:09 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[30-Jul-2015 06:07:10 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[30-Jul-2015 06:07:10 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[30-Jul-2015 06:07:45 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[30-Jul-2015 06:07:46 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[30-Jul-2015 06:08:00 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 06:11:21 Europe/Berlin] PHP Fatal error:  Call to undefined method CI_Model::CI_Model() in C:\xampp\htdocs\toms\application\models\Isiska.php on line 8
+[30-Jul-2015 06:15:12 Europe/Berlin] PHP Fatal error:  Call to undefined method CI_Controller::CI_Controller() in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 8
+[30-Jul-2015 06:15:28 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 06:15:49 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 06:18:03 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 06:20:59 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 06:21:08 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 06:21:10 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 06:21:10 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 06:21:31 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 06:21:32 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 06:21:33 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 06:21:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT), expecting identifier (T_STRING) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 31
+[30-Jul-2015 08:58:37 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 09:00:57 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[30-Jul-2015 09:09:28 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\ViewData.php on line 48
+[31-Jul-2015 05:36:32 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 05:55:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'and' (T_LOGICAL_AND), expecting ')' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 05:56:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected '.' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 228
+[31-Jul-2015 05:56:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected '.' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 228
+[31-Jul-2015 05:56:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected '.' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 228
+[31-Jul-2015 09:02:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 228
+[31-Jul-2015 09:03:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 228
+[31-Jul-2015 09:03:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 228
+[31-Jul-2015 10:05:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 33
+[31-Jul-2015 10:05:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 34
+[31-Jul-2015 10:05:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 34
+[31-Jul-2015 10:05:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 34
+[31-Jul-2015 10:05:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 34
+[31-Jul-2015 10:05:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 34
+[31-Jul-2015 10:05:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 34
+[31-Jul-2015 10:05:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 34
+[31-Jul-2015 10:10:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 228
+[31-Jul-2015 10:42:48 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 10:49:28 Europe/Berlin] PHP Fatal error:  Call to a member function result_array() on array in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 10:51:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 261
+[31-Jul-2015 10:54:53 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[31-Jul-2015 10:55:14 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[31-Jul-2015 10:55:24 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[31-Jul-2015 10:55:25 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[31-Jul-2015 10:55:56 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[31-Jul-2015 10:57:33 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[31-Jul-2015 10:57:33 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[31-Jul-2015 10:57:43 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[31-Jul-2015 10:57:44 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[31-Jul-2015 10:58:28 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[31-Jul-2015 10:58:28 Europe/Berlin] PHP Fatal error:  Call to a member function get() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 27
+[31-Jul-2015 11:01:13 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 11:01:26 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 11:03:30 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 11:03:53 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 11:07:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting ')' in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 41
+[31-Jul-2015 11:08:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 42
+[31-Jul-2015 11:08:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 42
+[31-Jul-2015 11:09:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting ')' in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 41
+[31-Jul-2015 11:09:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 39
+[31-Jul-2015 11:10:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected ''isiska'' (T_CONSTANT_ENCAPSED_STRING) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 41
+[31-Jul-2015 11:10:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected ''isiska'' (T_CONSTANT_ENCAPSED_STRING) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 41
+[31-Jul-2015 11:10:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected ''isiska'' (T_CONSTANT_ENCAPSED_STRING) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 41
+[31-Jul-2015 11:11:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{', expecting '(' in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 40
+[31-Jul-2015 11:11:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{', expecting '(' in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 40
+[31-Jul-2015 11:11:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 41
+[31-Jul-2015 11:11:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 41
+[31-Jul-2015 11:11:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 41
+[31-Jul-2015 11:12:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 41
+[31-Jul-2015 11:12:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 41
+[31-Jul-2015 11:12:20 Europe/Berlin] PHP Fatal error:  Call to a member function Listdata() on null in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 41
+[31-Jul-2015 11:12:41 Europe/Berlin] PHP Fatal error:  Call to a member function select() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 26
+[31-Jul-2015 11:13:21 Europe/Berlin] PHP Fatal error:  Call to a member function select() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 26
+[31-Jul-2015 11:13:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected '*' in C:\xampp\htdocs\toms\application\models\Isiska.php on line 26
+[31-Jul-2015 11:13:53 Europe/Berlin] PHP Fatal error:  Call to a member function select() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 26
+[31-Jul-2015 11:16:13 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 11:19:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\models\Isiska.php on line 31
+[31-Jul-2015 11:19:36 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 11:21:59 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 11:22:34 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 11:24:51 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 11:25:06 Europe/Berlin] PHP Fatal error:  Call to a member function result() on null in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 11:25:18 Europe/Berlin] PHP Fatal error:  Call to a member function result() on array in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 11:31:05 Europe/Berlin] PHP Fatal error:  Call to a member function num_rows() on array in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 11:31:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 265
+[31-Jul-2015 11:32:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'in' (T_STRING) in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 227
+[31-Jul-2015 11:35:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'in' (T_STRING) in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 227
+[31-Jul-2015 11:36:18 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 34
+[31-Jul-2015 11:36:31 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 34
+[31-Jul-2015 11:39:45 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 34
+[31-Jul-2015 11:39:47 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 34
+[31-Jul-2015 11:39:54 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 34
+[31-Jul-2015 11:39:55 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in C:\xampp\htdocs\toms\application\models\Isiska.php on line 34
+[31-Jul-2015 11:49:09 Europe/Berlin] PHP Fatal error:  Call to a member function num_rows() on array in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 11:49:57 Europe/Berlin] PHP Fatal error:  Call to a member function num_rows() on null in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 226
+[31-Jul-2015 11:58:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'endfor' (T_ENDFOR) in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 265
+[31-Jul-2015 11:58:57 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 228
+[31-Jul-2015 11:59:40 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 228
+[31-Jul-2015 12:00:08 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 228
+[31-Jul-2015 12:01:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE), expecting ',' or ';' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 233
+[31-Jul-2015 12:03:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE), expecting ',' or ';' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 233
+[31-Jul-2015 12:57:40 Europe/Berlin] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[03-Aug-2015 04:19:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 256
+[03-Aug-2015 04:21:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected '/' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 254
+[03-Aug-2015 05:27:54 Europe/Berlin] PHP Fatal error:  Call to a member function post() on null in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 45
+[03-Aug-2015 05:29:38 Europe/Berlin] PHP Fatal error:  Call to a member function post() on null in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 45
+[03-Aug-2015 05:33:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 72
+[05-Aug-2015 11:46:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in C:\xampp\htdocs\toms\application\models\Isiska.php on line 26
+[05-Aug-2015 12:35:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 96
+[06-Aug-2015 05:37:15 Europe/Berlin] PHP Fatal error:  Call to a member function do_upload() on null in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 56
+[06-Aug-2015 05:49:18 Europe/Berlin] PHP Fatal error:  Call to a member function initialize() on null in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 53
+[06-Aug-2015 05:49:52 Europe/Berlin] PHP Fatal error:  Call to a member function initialize() on null in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 53
+[06-Aug-2015 06:32:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>' in C:\xampp\htdocs\toms\application\views\InsertData.php on line 161
+[06-Aug-2015 06:32:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>' in C:\xampp\htdocs\toms\application\views\InsertData.php on line 161
+[06-Aug-2015 06:32:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>' in C:\xampp\htdocs\toms\application\views\InsertData.php on line 161
+[06-Aug-2015 06:32:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>' in C:\xampp\htdocs\toms\application\views\InsertData.php on line 161
+[06-Aug-2015 07:46:07 Europe/Berlin] PHP Fatal error:  Call to a member function genFileName() on null in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 58
+[06-Aug-2015 07:48:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected ';' in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 59
+[06-Aug-2015 07:59:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected ';' in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 59
+[06-Aug-2015 08:02:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 57
+[12-Aug-2015 10:59:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected '"' in C:\xampp\htdocs\toms\application\controllers\InsertData.php on line 62
+[12-Aug-2015 12:06:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'Closed' (T_STRING), expecting ',' or ';' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 255
+[13-Aug-2015 03:51:45 Europe/Berlin] PHP Fatal error:  Call to undefined function dump() in C:\xampp\htdocs\toms\application\controllers\ViewDirectory.php on line 31
+[13-Aug-2015 03:52:09 Europe/Berlin] PHP Fatal error:  Call to undefined function print_dir() in C:\xampp\htdocs\toms\application\controllers\ViewDirectory.php on line 34
+[13-Aug-2015 03:53:04 Europe/Berlin] PHP Fatal error:  Call to undefined function print_dir() in C:\xampp\htdocs\toms\application\views\ViewDirectory.php on line 29
+[13-Aug-2015 04:04:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\toms\application\views\ViewDirectory.php on line 146
+[13-Aug-2015 04:05:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\toms\application\views\ViewDirectory.php on line 146
+[13-Aug-2015 05:57:47 Europe/Berlin] PHP Fatal error:  Call to undefined function print_dir() in C:\xampp\htdocs\toms\application\controllers\ViewDirectory.php on line 34
+[13-Aug-2015 06:05:19 Europe/Berlin] PHP Fatal error:  Class 'Controller' not found in C:\xampp\htdocs\toms\application\controllers\files.php on line 2
+[13-Aug-2015 06:05:40 Europe/Berlin] PHP Fatal error:  Class 'Controller' not found in C:\xampp\htdocs\toms\application\controllers\files.php on line 2
+[13-Aug-2015 06:08:09 Europe/Berlin] PHP Fatal error:  Call to undefined method CI_Controller::Controller() in C:\xampp\htdocs\toms\application\controllers\files.php on line 10
+[13-Aug-2015 06:09:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\toms\application\controllers\files.php on line 69
+[13-Aug-2015 06:35:03 Europe/Berlin] PHP Fatal error:  Call to undefined function includeurl() in C:\xampp\htdocs\toms\application\views\files2.php on line 184
+[13-Aug-2015 09:38:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 102
+[13-Aug-2015 09:43:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\xampp\htdocs\toms\application\controllers\ViewData.php on line 106
+[13-Aug-2015 10:14:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'Closed' (T_STRING), expecting ',' or ';' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 255
+[13-Aug-2015 10:55:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'name' (T_STRING), expecting ',' or ';' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 256
+[13-Aug-2015 11:00:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 256
+[13-Aug-2015 11:01:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 256
+[13-Aug-2015 11:33:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected '419' (T_LNUMBER), expecting ',' or ';' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 266
+[13-Aug-2015 11:33:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected '419' (T_LNUMBER), expecting ',' or ';' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 266
+[13-Aug-2015 11:59:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 244
+[13-Aug-2015 12:03:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 265
+[13-Aug-2015 12:04:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 265
+[13-Aug-2015 12:32:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected '") {this.value = "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 252
+[13-Aug-2015 12:32:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in C:\xampp\htdocs\toms\application\views\Viewtoms.php on line 252
+[13-Aug-2015 18:21:27 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'resources/DirectoryLister.php' (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\toms\application\views\viewupload.php on line 4
+[13-Aug-2015 18:21:52 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'resources/DirectoryLister.php' (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\toms\application\views\viewupload.php on line 4
+[13-Aug-2015 18:22:51 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '&lt;?php echo base_url(); ?&gt;uploads/resources/DirectoryLister.php' (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\toms\application\views\viewupload.php on line 4
+[13-Aug-2015 18:23:44 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '&lt;?php echo base_url(); ?&gt;uploads/resources/DirectoryLister.php' (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\toms\application\views\viewupload.php on line 4
+[13-Aug-2015 18:24:07 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '&lt;?php echo base_url(); ?&gt;uploads/resources/DirectoryLister.php' (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\toms\application\views\viewupload.php on line 4
+[13-Aug-2015 18:25:18 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '&lt;?php echo base_url(); ?&gt;uploads/resources/DirectoryLister.php' (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\toms\application\views\viewupload.php on line 4
+[13-Aug-2015 18:27:22 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '&lt;?php echo base_url(); ?&gt;uploads/resources/DirectoryLister.php' (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\toms\application\views\viewupload.php on line 4
+[13-Aug-2015 18:27:52 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'http://localhost/toms/uploads/resources/DirectoryLister.php' (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\toms\application\views\viewupload.php on line 4
+[13-Aug-2015 18:28:47 Europe/Berlin] PHP Warning:  file_exists(): open_basedir restriction in effect. File(C:\xampp\htdocs\toms\application\core/Exceptions.php) is not within the allowed path(s): (&lt;?php echo base_url(); ?&gt;uploads/) in C:\xampp\htdocs\toms\system\core\Common.php on line 157
+[13-Aug-2015 18:28:47 Europe/Berlin] PHP Warning:  file_exists(): open_basedir restriction in effect. File(C:/xampp/htdocs/toms/system/core/Exceptions.php) is not within the allowed path(s): (&lt;?php echo base_url(); ?&gt;uploads/) in C:\xampp\htdocs\toms\system\core\Common.php on line 157
+[13-Aug-2015 18:28:47 Europe/Berlin] PHP Warning:  file_exists(): open_basedir restriction in effect. File(C:\xampp\htdocs\toms\application\core/MY_Exceptions.php) is not within the allowed path(s): (&lt;?php echo base_url(); ?&gt;uploads/) in C:\xampp\htdocs\toms\system\core\Common.php on line 171
+[13-Aug-2015 18:29:31 Europe/Berlin] PHP Warning:  file_exists(): open_basedir restriction in effect. File(C:\xampp\htdocs\toms\application\core/Exceptions.php) is not within the allowed path(s): (http://localhost/toms/uploads/) in C:\xampp\htdocs\toms\system\core\Common.php on line 157
+[13-Aug-2015 18:29:31 Europe/Berlin] PHP Warning:  file_exists(): open_basedir restriction in effect. File(C:/xampp/htdocs/toms/system/core/Exceptions.php) is not within the allowed path(s): (http://localhost/toms/uploads/) in C:\xampp\htdocs\toms\system\core\Common.php on line 157
+[13-Aug-2015 18:29:31 Europe/Berlin] PHP Warning:  file_exists(): open_basedir restriction in effect. File(C:\xampp\htdocs\toms\application\core/MY_Exceptions.php) is not within the allowed path(s): (http://localhost/toms/uploads/) in C:\xampp\htdocs\toms\system\core\Common.php on line 171
+[13-Aug-2015 18:31:58 Europe/Berlin] PHP Warning:  file_exists(): open_basedir restriction in effect. File(C:\xampp\htdocs\toms\application\core/Exceptions.php) is not within the allowed path(s): (http://localhost/toms/uploads/) in C:\xampp\htdocs\toms\system\core\Common.php on line 157
+[13-Aug-2015 18:31:58 Europe/Berlin] PHP Warning:  file_exists(): open_basedir restriction in effect. File(C:/xampp/htdocs/toms/system/core/Exceptions.php) is not within the allowed path(s): (http://localhost/toms/uploads/) in C:\xampp\htdocs\toms\system\core\Common.php on line 157
+[13-Aug-2015 18:31:58 Europe/Berlin] PHP Warning:  file_exists(): open_basedir restriction in effect. File(C:\xampp\htdocs\toms\application\core/MY_Exceptions.php) is not within the allowed path(s): (http://localhost/toms/uploads/) in C:\xampp\htdocs\toms\system\core\Common.php on line 171
+[13-Aug-2015 18:32:11 Europe/Berlin] PHP Warning:  file_exists(): open_basedir restriction in effect. File(C:\xampp\htdocs\toms\application\core/Exceptions.php) is not within the allowed path(s): (localhost/toms/uploads/) in C:\xampp\htdocs\toms\system\core\Common.php on line 157
+[13-Aug-2015 18:32:11 Europe/Berlin] PHP Warning:  file_exists(): open_basedir restriction in effect. File(C:/xampp/htdocs/toms/system/core/Exceptions.php) is not within the allowed path(s): (localhost/toms/uploads/) in C:\xampp\htdocs\toms\system\core\Common.php on line 157
+[13-Aug-2015 18:32:11 Europe/Berlin] PHP Warning:  file_exists(): open_basedir restriction in effect. File(C:\xampp\htdocs\toms\application\core/MY_Exceptions.php) is not within the allowed path(s): (localhost/toms/uploads/) in C:\xampp\htdocs\toms\system\core\Common.php on line 171
+[13-Aug-2015 18:32:30 Europe/Berlin] PHP Warning:  file_exists(): open_basedir restriction in effect. File(C:\xampp\htdocs\toms\application\core/Exceptions.php) is not within the allowed path(s): (./uploads/) in C:\xampp\htdocs\toms\system\core\Common.php on line 157
+[13-Aug-2015 18:32:30 Europe/Berlin] PHP Warning:  file_exists(): open_basedir restriction in effect. File(C:/xampp/htdocs/toms/system/core/Exceptions.php) is not within the allowed path(s): (./uploads/) in C:\xampp\htdocs\toms\system\core\Common.php on line 157
+[13-Aug-2015 18:32:30 Europe/Berlin] PHP Warning:  file_exists(): open_basedir restriction in effect. File(C:\xampp\htdocs\toms\application\core/MY_Exceptions.php) is not within the allowed path(s): (./uploads/) in C:\xampp\htdocs\toms\system\core\Common.php on line 171
