@@ -1,0 +1,60 @@
+
+
+#regineers {
+    width: 200px;
+    padding: 2%;
+    text-decoration: none;  
+    /*background-color: yellow;*/
+}
+
+
+#tabellogin td{
+    padding: 3px;
+    }
+
+/*#tabellogin {
+    background-color: red;
+}*/
+
+
+
+
+.table-responsive {
+    height: 70vh;
+    overflow-y: auto;
+}
+
+
+
+.panel-title {
+    text-align: center;
+}
+
+
+
+.panel.panel-danger > .panel-heading {
+    background-image: none;
+    background-color: #de0f17;
+    color: white;
+    margin-bottom: 
+
+}
+
+.panel.panel-success > .panel-heading {
+    background-image: none;
+    background-color: green;
+    color: white;
+}
+
+.overflow-y th {
+    background-color: #6d6e70;
+}
+
+.searchbox{
+    margin: 5px;
+    text-align: right;
+}
+
+.searchbox input{
+    width: 200px;
+}

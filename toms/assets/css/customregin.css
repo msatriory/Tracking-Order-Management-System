@@ -1,0 +1,201 @@
+
+
+#regineers {
+	width: 200px;
+	padding: 2%;
+	text-decoration: none;	
+	/*background-color: yellow;*/
+}
+
+
+
+#tabellogin td{
+	padding: 3px;/*
+    height: 120px;*/
+
+    }
+
+#tabelfix body {
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #555;
+}
+
+#tabelfix table {
+	height: 500px;
+	width: 1000px;
+    border: 0;
+    padding: 0;
+    margin: 0 0 20px 0;
+    border-collapse: collapse;
+    overflow: scroll;
+}
+#tabelfix th {
+    padding: 5px;
+    /* NOTE: th padding must be set explicitly in order to support IE */
+    text-align: right;
+    font-weight:bold;
+    line-height: 2em;
+    color: #FFF;
+    background-color: #555;
+}
+#tabelfix tbody td {
+    padding: 10px;
+    line-height: 18px;
+    border-top: 1px solid #E0E0E0;
+}
+#tabelfix tbody tr:nth-child(2n) {
+    background-color: #F7F7F7;
+}
+#tabelfix tbody tr:hover {
+    background-color: #EEEEEE;
+}
+#tabelfix td {
+    text-align: right;
+}
+#tabelfix td:first-child, th:first-child {
+    text-align: left;
+}
+/*a*/
+
+
+
+/*.panel-body {
+	height: 100px;
+	width: 1000px;
+	overflow-x: scroll;
+	overflow-y: scroll; 
+}*/
+/*
+.panel.panel-primary {
+		height: 100px;
+*/	/*width: 1000px;*/
+	/*overflow-x: scroll;*/
+	/*overflow: scroll; */
+
+/*}*/
+
+.table-responsive {
+	height: 480px;
+	overflow: scroll;
+}
+
+.panel-title {
+	text-align: center;
+}
+
+.panel.panel-danger > .panel-heading {
+    background-image: none;
+    background-color: #de0f17;
+    color: white;
+
+}
+
+.panel.panel-success > .panel-heading {
+    background-image: none;
+    background-color: green;
+    color: white;
+
+}
+
+/*.table-fixed thead {
+	position: absolute;
+}*/
+
+
+/*.table-fixed thead {
+  width: 97%;
+}
+.table-fixed tbody {
+  height: 480px;
+  overflow-y: auto;
+  width: 100%;
+}
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+}*/
+
+
+
+/*.header-fixed {
+    width: 100% 
+}
+
+.header-fixed > thead,
+.header-fixed > tbody,
+.header-fixed > thead > tr,
+.header-fixed > tbody > tr,
+.header-fixed > thead > tr > th,
+.header-fixed > tbody > tr > td {
+    display: block;
+}
+
+.header-fixed > tbody > tr:after,
+.header-fixed > thead > tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.header-fixed > tbody {
+    overflow-y: auto;
+    overflow-x: scroll; 
+   	height: 480px;
+}
+
+.header-fixed > tbody > tr > td,
+.header-fixed > thead > tr > th {
+    width: 6.25%;
+    float: left;
+}*/
+
+/*.table-striped > tbody > tr:nth-child(2n) > td, .table-striped > tbody > tr:nth-child(2n) > th {
+   background-color: #F55656;
+}
+*/
+
+/*
+.table-responsive {
+	overflow-y: scroll;	
+}*/
+/*
+.panel-body {
+	height: 200px;*/
+	/*overflow: scroll;*/
+
+/*width: 200px;
+/*	overflow-y: visible;
+	overflow-x: scroll  	
+}
+*/
+/*.panel-title {
+	position: fixed;
+}*/
+
+/*#regineers .form-group {
+	width: 100%;
+	margin-right: 30%;
+	background-color: black;
+
+}
+*/
+/*#haha {
+	width: 100%;
+	background-color: red;
+}*/
+
+/*.
+.btn.btn-primary {
+	width: 100%;
+}*/
+/*
+.form-control {
+	margin-top: 0px;*/
+/*}*/
