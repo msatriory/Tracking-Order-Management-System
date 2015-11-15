@@ -1,0 +1,868 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="author">
+
+    <title>TOMS | Home</title><!-- Bootstrap Core CSS -->
+    <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel=
+    "stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/customregin.css" rel=
+    "stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/components/icon.css" rel=
+    "stylesheet" type="text/css">
+    <link href="<?php echo base_url(); ?>assets/css/components/useful.css" rel=
+    "stylesheet" type="text/css">
+    <link href="<?php echo base_url(); ?>assets/css/components/reset.css" rel=
+    "stylesheet" type="text/css">
+    <link href="<?php echo base_url(); ?>assets/css/components/form.css" rel=
+    "stylesheet" type="text/css">
+    <link href="<?php echo base_url(); ?>assets/css/icon.css" rel="stylesheet"
+    type="text/css">
+    <link href="<?php echo base_url(); ?>assets/css/useful.css" rel=
+    "stylesheet" type="text/css">
+    <link href="<?php echo base_url(); ?>assets/css/reset.css" rel="stylesheet"
+    type="text/css">
+    <link href="<?php echo base_url(); ?>assets/css/form.css" rel="stylesheet"
+    type="text/css">
+    <link href="<?php echo base_url(); ?>assets/css/semantic.css" rel=
+    "stylesheet" type="text/css">
+    <link href="<?php echo base_url(); ?>assets/css/landing-page.css" rel=
+    "stylesheet" type="text/css">
+    <link href="<?php echo base_url(); ?>assets/css/normalize.css" rel="stylesheet"
+    type="text/css">
+    <link href="<?php echo base_url(); ?>assets/css/component.css" rel="stylesheet"
+    type="text/css">
+    <!--
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+    -->
+
+    <script language="javascript" src=
+    "<?php echo base_url(); ?>assets/js/jquery.scrollTo.js" type=
+    "text/javascript"></script>
+
+    <script language="javascript" src=
+    "<?php echo base_url(); ?>assets/js/jquery-1.10.2.min.js" type=
+    "text/javascript"></script><!-- Custom CSS -->
+    <!-- Custom Fonts -->
+    <link href=
+    "<?php echo base_url(); ?>assets/font-awesome/css/font-awesome.min.css"
+    rel="stylesheet" type="text/css">
+    <link href=
+    "http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+    rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-default navbar-fixed-top topnav">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-target=
+                "#bs-example-navbar-collapse-1" data-toggle="collapse" type=
+                "button"><span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span> <span class="icon-bar"></span>
+                <span class="icon-bar"></span></button> <a class=
+                "navbar-brand topnav" href="#">TOMS Telkom Indonesia</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <div class="collapse navbar-collapse" id=
+            "bs-example-navbar-collapse-1">
+
+            <!-- <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#closed">Closed</a>
+                    </li>
+                    <li>
+                        <a href="#onprogress">On Progress</a>
+                    </li>
+                    <li class="dropdown" >
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+                    Sign In <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    <div >
+                      <form id="regineers">
+                    
+                                                  <p><input  type="email" class="form-control" id="inputEmail3"
+                                                    placeholder="Username"></p>
+                                                         
+                                                  <p><input type="password" class="form-control" id="inputPassword3" placeholder="Password"></p>
+                         <p><button type="submit" class="btn btn-primary" style="width: 100%;">Sign in</button></p>    
+                </form>
+                </div>
+                    </ul>
+                </li>
+                </ul> -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href=
+                        "#">Isiska <b class="caret"></b></a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#isiskaonprogress">On Progress</a>
+                            </li>
+
+                            <li>
+                                <a href="#isiskaclosed">Closed</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href=
+                        "#">Ticares <b class="caret"></b></a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#ticaresonprogress">On Progress</a>
+                            </li>
+
+                            <li>
+                                <a href="#ticaresclosed">Closed</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href=
+                        "#">Sign In <b class="caret"></b></a>
+
+                        <div class="dropdown-menu" style="margin-left: 2em">
+                            <div id="regineers">
+                                <form action=
+                                "<?php echo base_url();?>index.php/Home/do_login"
+                                method="post">
+                                    <input class="form-control" name="NIK"
+                                    placeholder="NIK" type="text">
+                                    <input class="form-control" name="password"
+                                    placeholder="Password" type="password"><br>
+                                    <br>
+                                    <input class="btn btn-primary" type=
+                                    "submit" value="login">
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav><!-- Header -->
+    <a id="about" name="about"></a>
+
+    <div class="intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h3>TOMS</h3><br>
+                        <hr class="intro-divider">
+
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a class="btn btn-default btn-lg" href=
+                                "#closed"><span class=
+                                "network-name">Closed</span></a>
+                            </li>
+
+                            <li>
+                                <a class="btn btn-default btn-lg" href=
+                                "onprogress"><span class="network-name">On
+                                Progress</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container -->
+    </div><!-- /.intro-header -->
+    <a id="isiskaonprogress" name="isiskaonprogress"></a>
+
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Isiska On Progress</h3>
+                    </div>
+
+                    <div class="panel-body">
+                    <div class="searchbox" style="text-align:right;">Search: <input type="search" class="light-table-filter" data-table="order-table-1" placeholder="Filter"><i class="fa fa-search"></i></div>
+
+                        <div class="table-responsive">
+                            
+                                <table class=
+                                "order-table-1 table table-bordered table-hover table-striped table-fixed table-editable overflow-y"
+                                id="search">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="17" style=
+                                            "text-align:center">Data
+                                            Pelanggan</th>
+
+                                            <th colspan="12" style=
+                                            "text-align:center">Progress</th>
+                                        </tr>
+                                        <tr>
+                                            <td>No</td>
+
+                                            <td>Cust_Name</td>
+
+                                            <td>Cust_Ship</td>
+
+                                            <td>City</td>
+
+                                            <td>Customer_Segmen</td>
+
+                                            <td>Product</td>
+
+                                            <td>BW_Packet</td>
+
+                                            <td>One_Time_Charge</td>
+
+                                            <td>Abonemen</td>
+
+                                            <td>Sales_by</td>
+
+                                            <td>AM_Name</td>
+
+                                            <td>AM_Phone</td>
+
+                                            <td>Customer_Phone</td>
+
+                                            <td>Contract_Date</td>
+
+                                            <td>Due_Date_Live</td>
+
+                                            <td>Tech_Data</td>
+
+                                            <td>Input_Date</td>
+
+                                            <td>Speedy_Number</td>
+
+                                            <td>Date_of_Progress</td>
+
+                                            <td>I-Siska_Status</td>
+
+                                            <td>Tenoss_Status</td>
+
+                                            <td>Status</td>
+
+                                            <td>Additional_Information</td>
+
+                                            <td>One_Time_Charge</td>
+
+                                            <td>Follow_up</td>
+
+                                            <td>Unit_in_Charge</td>
+
+                                            <td>PIC_Name</td>
+
+                                            <td>PIC_Number</td>
+
+                                            <td>Put_in_Service_Date</td>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody contenteditable="true" id="tabel1">
+                                        <?php
+                                                                                                foreach($isiska->result() as $data):
+                                                                                                if($data->Status=="progress"){
+                                                                                                    echo "<tr><td  style='text-align:center'>".$data->No."</td></td>";
+                                                                                                    echo "<td  style='text-align:center' text-align:center>".$data->Cust_Name."</td>";
+                                                                                                    echo "<td  style='text-align:center'>".$data->Cust_Ship."</td>";
+                                                                                                    echo "<td  style='text-align:center'>".$data->City."</td>";
+                                                                                                    echo "<td  style='text-align:center'>".$data->Customer_Segmen."</td>";
+                                                                                                    echo "<td  style='text-align:center'>".$data->Product."</td>";
+                                                                                                    echo "<td  style='text-align:center'>".$data->BW_Packet."</td>";
+                                                                                                    echo "<td  style='text-align:center'>".$data->One_Time_Charge."</td>";
+                                                                                                    echo "<td  style='text-align:center'>".$data->Abonemen."</td>";
+                                                                                                    echo "<td  style='text-align:center'>".$data->Sales_by."</td>";
+                                                                                                    echo "<td  style='text-align:center'>".$data->AM_Name."</td>";
+                                                                                                    echo "<td  style='text-align:center'>".$data->AM_Phone."</td>";
+                                                                                                    echo "<td  style='text-align:center'>".$data->Customer_Phone."</td>";
+                                                                                                    echo "<td  style='text-align:center'>".$data->Contract_Date."</td>";
+                                                                                                    echo "<td  style='text-align:center'>".$data->Due_Date_Live."</td>";
+                                                                                                    echo "<td  style='text-align:center'>".$data->Tech_Data."</td>";
+                                                                                                    echo "<td style='text-align:center'>".$data->Input_Date."</td>";
+                                                                                                    echo "<td style='text-align:center'>".$data->Speedy_Number."</td>";
+                                                                                                    echo "<td style='text-align:center'>".$data->Date_of_Progress."</td>";
+                                                                                                    echo "<td style='text-align:center'>".$data->ISiska_Status."</td>";
+                                                                                                    echo "<td style='text-align:center'>".$data->Tenoss_Status."</td>";
+                                                                                                    echo "<td style='text-align:center'><input type='text' id='Status' name='Status'>".$data->Status."</td>";
+                                                                                                    echo "<td style='text-align:center'>".$data->Additional_Information."</td>";
+                                                                                                    echo "<td style='text-align:center'>".$data->Follow_up."</td>";
+                                                                                                    echo "<td style='text-align:center'>".$data->Unit_in_Charge."</td>";
+                                                                                                    echo "<td style='text-align:center'>".$data->PIC_Name."</td>";
+                                                                                                    echo "<td style='text-align:center'>".$data->PIC_Number."</td>";
+                                                                                                    echo "<td style='text-align:center'>".$data->Put_in_Service_Date."</td>";?><?php
+                                                                                                    }
+                                                                                                  endforeach;
+                                                                                                ?>
+                                    </tbody>
+                                </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container -->
+    </div>
+    <!-- Page Content -->
+    <a id="isiskaclosed" name="isiskaclosed"></a>
+
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Isiska Closed</h3>
+                    </div>
+
+                    <div class="panel-body">
+                    <div class="searchbox" style="text-align:right;">Search: <input type="search" class="light-table-filter" data-table="order-table" placeholder="Filter"><i class="fa fa-search"></i></div>
+
+                    
+                        <div class="table-responsive">
+                            <table class=
+                            "order-table table table-bordered table-hover table-striped table-fixed">
+                            <thead>
+                                    <tr>
+                                        <th colspan="17">Data Pelanggan</th>
+
+                                        <th colspan="12">Progress</th>
+                                    </tr>
+                                    <tr>
+                                        <td>No</td>
+
+                                        <td>Cust_Name</td>
+
+                                        <td>Cust_Ship</td>
+
+                                        <td>City</td>
+
+                                        <td>Customer_Segmen</td>
+
+                                        <td>Product</td>
+
+                                        <td>BW_Packet</td>
+
+                                        <td>One_Time_Charge</td>
+
+                                        <td>Abonemen</td>
+
+                                        <td>Sales_by</td>
+
+                                        <td>AM_Name</td>
+
+                                        <td>AM_Phone</td>
+
+                                        <td>Customer_Phone</td>
+
+                                        <td>Contract_Date</td>
+
+                                        <td>Due_Date_Live</td>
+
+                                        <td>Tech_Data</td>
+
+                                        <td>Input_Date</td>
+
+                                        <td>Speedy_Number</td>
+
+                                        <td>Date_of_Progress</td>
+
+                                        <td>I-Siska_Status</td>
+
+                                        <td>Tenoss_Status</td>
+
+                                        <td>Status</td>
+
+                                        <td>Additional_Information</td>
+
+                                        <td>One_Time_Charge</td>
+
+                                        <td>Follow_up</td>
+
+                                        <td>Unit_in_Charge</td>
+
+                                        <td>PIC_Name</td>
+
+                                        <td>PIC_Number</td>
+
+                                        <td>Put_in_Service_Date</td>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <?php
+                                                        foreach($isiska->result() as $data):
+                                                          
+                                                            if($data->Status=="Closed"){
+                                                            echo "<tr><td td style='text-align:center'>".$data->No."</td></td>";
+                                                            echo "<td style='text-align:center' text-align:center>".$data->Cust_Name."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Cust_Ship."</td>";
+                                                            echo "<td style='text-align:center'>".$data->City."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Customer_Segmen."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Product."</td>";
+                                                            echo "<td style='text-align:center'>".$data->BW_Packet."</td>";
+                                                            echo "<td style='text-align:center'>".$data->One_Time_Charge."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Abonemen."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Sales_by."</td>";
+                                                            echo "<td style='text-align:center'>".$data->AM_Name."</td>";
+                                                            echo "<td style='text-align:center'>".$data->AM_Phone."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Customer_Phone."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Contract_Date."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Due_Date_Live."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Tech_Data."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Input_Date."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Speedy_Number."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Date_of_Progress."</td>";
+                                                            echo "<td style='text-align:center'>".$data->ISiska_Status."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Tenoss_Status."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Status."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Additional_Information."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Follow_up."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Unit_in_Charge."</td>";
+                                                            echo "<td style='text-align:center'>".$data->PIC_Name."</td>";
+                                                            echo "<td style='text-align:center'>".$data->PIC_Number."</td>";
+                                                            echo "<td style='text-align:center'>".$data->Put_in_Service_Date."</td>";?><?php
+                                                            }
+                                                          endforeach;
+                                                        ?>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container -->
+    </div><!-- /.content-section-a -->
+
+<a name="ticaresonprogress"></a>
+<div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Ticares On Progress</h3>
+                    </div>
+
+                    <div class="panel-body">
+                    <div class="searchbox" style="text-align:right;"><p>Search: <input type="search" class="light-table-filter" data-table="order-table-2" placeholder="Filter"><i class="fa fa-search"></i></p></div>
+
+                        <div class="table-responsive">
+                           
+                                <table class=
+                                "order-table-2 table table-bordered table-hover table-striped table-fixed table-editable"
+                                id="table">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="17" style=
+                                            "text-align:center">Data
+                                            Pelanggan</th>
+
+                                            <th colspan="12" style=
+                                            "text-align:center">Progress</th>
+                                        </tr>
+                                        <tr>
+                                        <th class="headline_class_name">No</th>
+
+                                        <th class="headline_class_name">
+                                        Cust_Name</th>
+
+                                        <th class="headline_class_name">
+                                        Cust_Ship</th>
+
+                                        <th class="headline_class_name">
+                                        City</th>
+
+                                        <th class="headline_class_name">
+                                        Customer_Segmen</th>
+
+                                        <th class="headline_class_name">
+                                        Product_Name</th>
+
+                                        <th class="headline_class_name">
+                                        Bandwidth</th>
+
+                                        <th class="headline_class_name">
+                                        One_Time_Charge</th>
+
+                                        <th class="headline_class_name">
+                                        Abonemen</th>
+
+                                        <th class="headline_class_name">
+                                        AM_Name</th>
+
+                                        <th class="headline_class_name">
+                                        AM_Phone</th>
+
+                                        <th class="headline_class_name">
+                                        Customer_Name</th>
+
+                                        <th class="headline_class_name">
+                                        Customer_Phone</th>
+
+                                        <th class="headline_class_name">
+                                        Contract_Date</th>
+
+                                        <th class="headline_class_name">
+                                        Due_Date_Live</th>
+
+                                        <th class="headline_class_name">Ket
+                                        input</th>
+
+                                        <th class="headline_class_name">
+                                        Input_Date</th>
+
+                                        <th class="headline_class_name">
+                                        Order_Number</th>
+
+                                        <th class="headline_class_name">
+                                        Ticares_Status</th>
+
+                                        <th class="headline_class_name">
+                                        Tenoss_Taskname</th>
+
+                                        <th class="headline_class_name">
+                                        Tenoss_Workgroup</th>
+
+                                        <th class="headline_class_name">
+                                        Sirkit_ID</th>
+
+                                        <th class="headline_class_name">
+                                        Additional_Information</th>
+
+                                        <th class="headline_class_name">
+                                        Follow_up</th>
+
+                                        <th class="headline_class_name">
+                                        Billcom_date</th>
+
+                                        <th class="headline_class_name">
+                                        Billdate</th>
+                                    </tr>
+                                    </thead>
+
+                                    <tbody>
+                                    
+                                        <tr><?php
+                                            foreach($ticares->result() as $data):
+                                            if($data->Ticares_Status=="Billcom") {
+                                                echo "<tr><td  style='text-align:center'>".$data->No."</td></td>";
+                                                echo "<td  style='text-align:center' text-align:center>".$data->Cust_Name."</td>";
+                                                echo "<td  style='text-align:center'>".$data->Cust_Ship."</td>";
+                                                echo "<td  style='text-align:center'>".$data->City."</td>";
+                                                echo "<td  style='text-align:center'>".$data->Customer_Segmen."</td>";
+                                                echo "<td  style='text-align:center'>".$data->Product_Name."</td>";
+                                                echo "<td  style='text-align:center'>".$data->Bandwidth."</td>";
+                                                echo "<td  style='text-align:center'>".$data->One_Time_Charge."</td>";
+                                                echo "<td  style='text-align:center'>".$data->Abonemen."</td>";
+
+                                                echo "<td  style='text-align:center'>".$data->AM_Name."</td>";
+                                                echo "<td  style='text-align:center'>".$data->AM_Phone."</td>";
+                                                echo "<td  style='text-align:center'>".$data->Customer_Name."</td>";
+                                                echo "<td  style='text-align:center'>".$data->Customer_Phone."</td>";
+                                                echo "<td  style='text-align:center'>".$data->Contract_Date."</td>";
+                                                echo "<td  style='text-align:center'>".$data->Due_Date_Live."</td>";
+                                                echo "<td  style='text-align:center'>".$data->ket_input."</td>";
+                                                echo "<td style='text-align:center'>".$data->Input_Date."</td>";
+                                                echo "<td style='text-align:center'>".$data->Order_Number."</td>";
+
+                                                echo "<td style='text-align:center'>".$data->Ticares_Status."</td>";
+                                                echo "<td style='text-align:center'>".$data->Tenoss_Taskname."</td>";
+                                                echo "<td style='text-align:center'><input type='text' id='Status' name='Status'>".$data->Tenoss_Workgroup."</td>";
+                                                echo "<td style='text-align:center'>".$data->Sirkit_ID."</td>";
+                                                echo "<td style='text-align:center'>".$data->Additional_Information."</td>";
+                                                echo "<td style='text-align:center'>".$data->Follow_up."</td>";
+                                                echo "<td style='text-align:center'>".$data->Billcom_date."</td>";
+                                                echo "<td style='text-align:center'>".$data->Billdate."</td>";
+                                                 ?><?php
+                                                }
+                                              endforeach;
+                                            ?>
+                                    </tbody>
+                                </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container -->
+    </div>
+
+
+<a name="ticaresclosed"></a>
+<div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Ticares Closed</h3>
+                    </div>
+                    <div class="panel-body">
+                    <div class="searchbox" style="text-align:right;"><p>Search: <input type="search" class="light-table-filter" data-table="order-table-3" placeholder="Filter"><i class="fa fa-search"></i></p></div>
+                        <div class="table-responsive">
+                            
+
+                                <table class=
+                                "order-table-3 table table-bordered table-hover table-striped table-fixed table-editable"
+                                id="table">
+                                    <thead>
+                                        <tr>
+            <th class="lock_class_name" style='text-align:center' class="headline_class_name" colspan="17"> Data Pelanggan</th>
+            <th class="headline_class_name" style='text-align:center' class="headline_class_name" colspan="12"> Progress</th>         
+        </tr>
+            <tr>
+                    <th class="headline_class_name">No</th>
+                    <th class="headline_class_name">Cust_Name</th>
+                    <th class="headline_class_name">Cust_Ship</th>
+                    <th class="headline_class_name">City</th>
+                    <th class="headline_class_name">Customer_Segmen</th>
+                    <th class="headline_class_name">Product_Name</th>
+                    <th class="headline_class_name">Bandwidth</th>
+                    <th class="headline_class_name">One_Time_Charge</th>
+                    <th class="headline_class_name">Abonemen</th>
+                    <th class="headline_class_name">AM_Name</th>
+                    <th class="headline_class_name">AM_Phone</th>
+                    <th class="headline_class_name">Customer_Name</th>
+                    <th class="headline_class_name">Customer_Phone</th>
+                
+                
+                    <th class="headline_class_name">Contract_Date</th>
+                    <th class="headline_class_name">Due_Date_Live</th>
+                    <th class="headline_class_name">Ket input</th>
+
+                    <th class="headline_class_name">Input_Date</th>
+                    <th class="headline_class_name">Order_Number</th>
+                 
+                    <th class="headline_class_name">Ticares_Status</th>
+                    <th class="headline_class_name">Tenoss_Taskname</th>
+                    <th class="headline_class_name">Tenoss_Workgroup</th>
+                
+                    <th class="headline_class_name">Sirkit_ID</th>
+                    <th class="headline_class_name">Additional_Information</th>
+                    
+                    <th class="headline_class_name">Follow_up</th>
+                    <th class="headline_class_name">Billcom_date</th>
+                    <th class="headline_class_name">Billdate</th>
+                    
+                </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                        
+                                    
+                                        <tr><?php
+                                                foreach($ticares->result() as $data):
+                                                if($data->Ticares_Status!="Billcom") {
+                                                    echo "<tr><td  style='text-align:center'>".$data->No."</td></td>";
+                                                    echo "<td  style='text-align:center' text-align:center>".$data->Cust_Name."</td>";
+                                                    echo "<td  style='text-align:center'>".$data->Cust_Ship."</td>";
+                                                    echo "<td  style='text-align:center'>".$data->City."</td>";
+                                                    echo "<td  style='text-align:center'>".$data->Customer_Segmen."</td>";
+                                                    echo "<td  style='text-align:center'>".$data->Product_Name."</td>";
+                                                    echo "<td  style='text-align:center'>".$data->Bandwidth."</td>";
+                                                    echo "<td  style='text-align:center'>".$data->One_Time_Charge."</td>";
+                                                    echo "<td  style='text-align:center'>".$data->Abonemen."</td>";
+
+                                                    echo "<td  style='text-align:center'>".$data->AM_Name."</td>";
+                                                    echo "<td  style='text-align:center'>".$data->AM_Phone."</td>";
+                                                    echo "<td  style='text-align:center'>".$data->Customer_Name."</td>";
+                                                    echo "<td  style='text-align:center'>".$data->Customer_Phone."</td>";
+                                                    echo "<td  style='text-align:center'>".$data->Contract_Date."</td>";
+                                                    echo "<td  style='text-align:center'>".$data->Due_Date_Live."</td>";
+                                                    echo "<td  style='text-align:center'>".$data->ket_input."</td>";
+                                                    echo "<td style='text-align:center'>".$data->Input_Date."</td>";
+                                                    echo "<td style='text-align:center'>".$data->Order_Number."</td>";
+
+                                                    echo "<td style='text-align:center'>".$data->Ticares_Status."</td>";
+                                                    echo "<td style='text-align:center'>".$data->Tenoss_Taskname."</td>";
+                                                    echo "<td style='text-align:center'><input type='text' id='Status' name='Status'>".$data->Tenoss_Workgroup."</td>";
+                                                    echo "<td style='text-align:center'>".$data->Sirkit_ID."</td>";
+                                                    echo "<td style='text-align:center'>".$data->Additional_Information."</td>";
+                                                    echo "<td style='text-align:center'>".$data->Follow_up."</td>";
+                                                    echo "<td style='text-align:center'>".$data->Billcom_date."</td>";
+                                                    echo "<td style='text-align:center'>".$data->Billdate."</td>";
+                                                     ?><?php
+                                                    }
+                                                  endforeach;
+                                                ?>
+                                    </tbody>
+                                </table>   
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container -->
+    </div>
+
+
+<div class="component">
+            
+                <table class="overflow-y">
+                    <thead>
+                        <tr>
+                            <th>Population</th><th>Alpha</th><th>Beta</th><th>Gamma</th><th>Delta</th><th>Epsilon</th><th>Zeta</th><th>Eta</th><th>Theta</th><th>Iota</th><th>Kappa</th><th>Lambda</th><th>Mu</th><th>Nu</th><th>Xi</th><th>Omicron</th><th>Pi</th><th>Rho</th><th>Sigma</th><th>Tau</th><th>Upsilon</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Sample #1</th><td>23</td><td>88</td><td>8</td><td>2</td><td>67</td><td>83</td><td>81</td><td>37</td><td>91</td><td>96</td><td>13</td><td>3</td><td>95</td><td>98</td><td>10</td><td>87</td><td>70</td><td>54</td><td>72</td><td>75</td>
+                        </tr><tr>
+                            <th>Sample #2</th><td>14</td><td>21</td><td>20</td><td>21</td><td>9</td><td>68</td><td>60</td><td>73</td><td>22</td><td>29</td><td>9</td><td>49</td><td>49</td><td>66</td><td>58</td><td>10</td><td>8</td><td>24</td><td>19</td><td>65</td>
+                        </tr><tr>
+                            <th>Sample #3</th><td>4</td><td>50</td><td>89</td><td>72</td><td>99</td><td>90</td><td>24</td><td>86</td><td>95</td><td>44</td><td>32</td><td>97</td><td>18</td><td>90</td><td>81</td><td>9</td><td>38</td><td>4</td><td>85</td><td>15</td>
+                        </tr><tr>
+                            <th>Sample #4</th><td>10</td><td class="err">Parse error</td><td>32</td><td>45</td><td>53</td><td>29</td><td>35</td><td>35</td><td>75</td><td>9</td><td>69</td><td>66</td><td>93</td><td>42</td><td>81</td><td>85</td><td>72</td><td>70</td><td>15</td><td>38</td>
+                        </tr><tr>
+                            <th>Sample #5</th><td>85</td><td>42</td><td>71</td><td>56</td><td>30</td><td>3</td><td>41</td><td>87</td><td>94</td><td>99</td><td>24</td><td>20</td><td>96</td><td>62</td><td>90</td><td>13</td><td>38</td><td>47</td><td>9</td><td>6</td>
+                        </tr><tr>
+                            <th>Sample #6</th><td>18</td><td>80</td><td>85</td><td>65</td><td>9</td><td>93</td><td>93</td><td>61</td><td>49</td><td>10</td><td>45</td><td>3</td><td>93</td><td>61</td><td>4</td><td>80</td><td>2</td><td>60</td><td>53</td><td>81</td>
+                        </tr><tr>
+                            <th>Sample #7</th><td>30</td><td>81</td><td>46</td><td>50</td><td>71</td><td>60</td><td>8</td><td>33</td><td>87</td><td>34</td><td>35</td><td>74</td><td>34</td><td>31</td><td>97</td><td>10</td><td>40</td><td>95</td><td>92</td><td>93</td>
+                        </tr><tr>
+                            <th>Sample #8</th><td>29</td><td>91</td><td>85</td><td>92</td><td>2</td><td>84</td><td>29</td><td>28</td><td>25</td><td>63</td><td>18</td><td>97</td><td>87</td><td>59</td><td>53</td><td>7</td><td>47</td><td>21</td><td>62</td><td>11</td>
+                        </tr><tr>
+                            <th>Sample #9</th><td>45</td><td>96</td><td>25</td><td>60</td><td>56</td><td>67</td><td>48</td><td>7</td><td>30</td><td>64</td><td>10</td><td>0</td><td>38</td><td>72</td><td>83</td><td>61</td><td>35</td><td>96</td><td>84</td><td>49</td>
+                        </tr><tr>
+                            <th>Sample #10</th><td>66</td><td>63</td><td>25</td><td>28</td><td>67</td><td>83</td><td>25</td><td>10</td><td>0</td><td>18</td><td>98</td><td>92</td><td>73</td><td>40</td><td>78</td><td>88</td><td>99</td><td>30</td><td>74</td><td>88</td>
+                        </tr><tr>
+                            <th>Sample #11</th><td>8</td><td>34</td><td>9</td><td>56</td><td>38</td><td>37</td><td>17</td><td>74</td><td>33</td><td>55</td><td>76</td><td>95</td><td>34</td><td>5</td><td>39</td><td>13</td><td>99</td><td>35</td><td>15</td><td>56</td>
+                        </tr><tr>
+                            <th>Sample #12</th><td>28</td><td>1</td><td>93</td><td>79</td><td>56</td><td>7</td><td>70</td><td>62</td><td>58</td><td>96</td><td>25</td><td>40</td><td>49</td><td>35</td><td>44</td><td>67</td><td>6</td><td>73</td><td>38</td><td>91</td>
+                        </tr><tr>
+                            <th>Sample #13</th><td>85</td><td>1</td><td>70</td><td>31</td><td>32</td><td>42</td><td>91</td><td>75</td><td>51</td><td>77</td><td>35</td><td>53</td><td>7</td><td>79</td><td>17</td><td>75</td><td>55</td><td>47</td><td>42</td><td>41</td>
+                        </tr><tr>
+                            <th>Sample #14</th><td>93</td><td>59</td><td>47</td><td>68</td><td>75</td><td>61</td><td>37</td><td>34</td><td>44</td><td>36</td><td>59</td><td>95</td><td>31</td><td>10</td><td>11</td><td>62</td><td>98</td><td>34</td><td>58</td><td>93</td>
+                        </tr><tr>
+                            <th>Sample #15</th><td>81</td><td>28</td><td>36</td><td>88</td><td>85</td><td>66</td><td>66</td><td>68</td><td>78</td><td>64</td><td>95</td><td>59</td><td>35</td><td>15</td><td>51</td><td>84</td><td>59</td><td>29</td><td>22</td><td>35</td>
+                        </tr><tr>
+                            <th>Sample #16</th><td>71</td><td>90</td><td>78</td><td>60</td><td>28</td><td>61</td><td>88</td><td>2</td><td>23</td><td>48</td><td>11</td><td>79</td><td>93</td><td>19</td><td>74</td><td>31</td><td>55</td><td>10</td><td>70</td><td>95</td>
+                        </tr><tr>
+                            <th>Sample #17</th><td>64</td><td>17</td><td>49</td><td>71</td><td>6</td><td>44</td><td>38</td><td>14</td><td>95</td><td>70</td><td>69</td><td>9</td><td>76</td><td>41</td><td>77</td><td>83</td><td>99</td><td>43</td><td>54</td><td>33</td>
+                        </tr><tr>
+                            <th>Sample #18</th><td>20</td><td>36</td><td>10</td><td>0</td><td>35</td><td>35</td><td>2</td><td>29</td><td>98</td><td>22</td><td>30</td><td>45</td><td>49</td><td>80</td><td>48</td><td>20</td><td>11</td><td>31</td><td>14</td><td>12</td>
+                        </tr><tr>
+                            <th>Sample #19</th><td>23</td><td>74</td><td>72</td><td>43</td><td>99</td><td class="err">Parse error</td><td>96</td><td>34</td><td>9</td><td>59</td><td>56</td><td>10</td><td>19</td><td>53</td><td>21</td><td>71</td><td>75</td><td>55</td><td>51</td><td>82</td>
+                        </tr><tr>
+                            <th>Sample #20</th><td>16</td><td>88</td><td>17</td><td>85</td><td>6</td><td>45</td><td>41</td><td>67</td><td>12</td><td>70</td><td>83</td><td>73</td><td>85</td><td>19</td><td>4</td><td>5</td><td>13</td><td>85</td><td>53</td><td>6</td>
+                        </tr><tr>
+                            <th>Sample #21</th><td>35</td><td>34</td><td>69</td><td>78</td><td>10</td><td>89</td><td>38</td><td>81</td><td>95</td><td>51</td><td>37</td><td>49</td><td>50</td><td>66</td><td>17</td><td>15</td><td>99</td><td>19</td><td>54</td><td>29</td>
+                        </tr><tr>
+                            <th>Sample #22</th><td>88</td><td>65</td><td>97</td><td>73</td><td>38</td><td>74</td><td>92</td><td>86</td><td>75</td><td>77</td><td>34</td><td>28</td><td>31</td><td>12</td><td>78</td><td>25</td><td>79</td><td>60</td><td>8</td><td>86</td>
+                        </tr><tr>
+                            <th>Sample #23</th><td>86</td><td>18</td><td>11</td><td>37</td><td>70</td><td>86</td><td>2</td><td>6</td><td>50</td><td>24</td><td>82</td><td>9</td><td>15</td><td>70</td><td>29</td><td>74</td><td>15</td><td>86</td><td>42</td><td>14</td>
+                        </tr><tr>
+                            <th>Sample #24</th><td>80</td><td>62</td><td>69</td><td>25</td><td>90</td><td>16</td><td>27</td><td>93</td><td>70</td><td>53</td><td>89</td><td>60</td><td>39</td><td>31</td><td>43</td><td>67</td><td>94</td><td>31</td><td>38</td><td>91</td>
+                        </tr><tr>
+                            <th>Sample #25</th><td>94</td><td>80</td><td>13</td><td>11</td><td>65</td><td>20</td><td>85</td><td>86</td><td>51</td><td>67</td><td>15</td><td>54</td><td>34</td><td>75</td><td>87</td><td>79</td><td>11</td><td>43</td><td>32</td><td>52</td>
+                        </tr>
+                    </tbody>
+                </table>
+    <!-- Footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="http://telkom.co.id/">TOMS</a>
+                        </li>
+                    </ul>
+
+                    <p class="copyright text-muted small">Copyright &copy;
+                    Telkom Indonesia</p>
+                </div>
+            </div>
+        </div>
+    </footer><!-- jQuery -->
+    <!--
+    <script src="js/jquery.js"></script> 
+    -->
+    <script language="javascript" src=
+    "<?php echo base_url(); ?>assets/js/jquery.js" type=
+    "text/javascript"></script> <!-- Bootstrap Core JavaScript -->
+    <script language="javascript" src=
+    "<?php echo base_url(); ?>assets/js/search.js" type=
+    "text/javascript"></script>
+    <script language="javascript" src=
+    "<?php echo base_url(); ?>assets/js/cari.js" type=
+    "text/javascript"></script>
+
+    <script language="javascript" src=
+    "<?php echo base_url(); ?>assets/js/filtering.js" type=
+    "text/javascript"></script>
+
+    <script language="javascript" src=
+    "<?php echo base_url(); ?>assets/js/debounce.js" type=
+    "text/javascript"></script>
+
+    <script language="javascript" src=
+    "<?php echo base_url(); ?>assets/js/jquery.stickyheader.js" type=
+    "text/javascript"></script>
+
+
+
+
+
+
+     <!--
+    <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.scrollTo.js"></script>
+            <script src="js/compass.js"></script>
+            -->
+     <script language="javascript" src=
+    "<?php echo base_url(); ?>assets/js/bootstrap.min.js" type=
+    "text/javascript"></script> 
+    <script language="javascript" src=
+"<?php echo base_url(); ?>assets/js/jquery.scrollTo.js" type=
+"text/javascript"></script> <script language="javascript" src=
+"<?php echo base_url(); ?>assets/js/compass.js" type=
+"text/javascript"></script> <script type="text/javascript">
+$(function(){
+    $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+    });
+    });
+    </script> <script>
+$(document).ready(function(){   
+
+    $("#submitbutton").click(function()
+    {       
+     $.ajax({
+         type: "POST",
+         url: "<?php echo base_url(); ?>" + "index.php/ViewData/post_action", 
+         data: {Status: $("#Status").val()},
+         dataType: "text",  
+         cache:false,
+         success: 
+              function(data){
+                alert(data);  //as a debugging message.
+              }
+          });// you have missed this bracket
+     return false;
+    });
+    });
+
+
+    </script>
+</body>
+</html>
