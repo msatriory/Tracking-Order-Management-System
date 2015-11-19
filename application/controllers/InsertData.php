@@ -27,10 +27,15 @@ class InsertData extends CI_Controller {
 	 */
 	public function index()
 	{
-		$amanager = $this->Isiska->Listdataam();
+		if(!isset($_SESSION['NIK'])){
+			redirect('Home');		
+		}
+		else{
+		$amanager = $this->Isiska->Listnamaam();
 		$this->load->view('FormIsisca', $amanager);
-
+		}
 	}
+
 
     function isiska()
     {
@@ -54,10 +59,11 @@ class InsertData extends CI_Controller {
     	$Contract_Date = $this->input->post('Contract_Date');
     	$Due_Date_Live = $this->input->post('Due_Date_Live');
     	$Tech_Data = $this->input->post('Tech_Data');
+    	$Status='Progress';
     	//start of file upload code
     			//$new_name = rename("$_FILES['userfile']['name']", "$Cust_Name")
 				//$config['file_name'] = $new_name;
-    			$path = "./uploads/$Cust_Name";
+    			$path = "./uploads/Contracts";
 
 			    if(!is_dir($path)) //create the folder if it's not already exists
 			    {
@@ -80,17 +86,7 @@ class InsertData extends CI_Controller {
            // $new_data='Cust_Name'+'.pdf';
             //$new_imgpath=$img_data['file_path'].$new_imgname;
             //rename($img_data['full_path'], $new_imgpath);
-
-
-					$this->load->view('upload_success',$data);
-				}
-                else
-				{
-					$error = array('error' => $this->upload->display_errors());
-					$this->load->view('file_view', $error);
-				}
-                //end of file upload code
-    	$data_siska = array (
+					$data_siska = array (
     		'Cust_Name' => $Cust_Name,
 	    	'Cust_Ship' => $Cust_Ship,
 	    	'City' => $City,
@@ -106,11 +102,24 @@ class InsertData extends CI_Controller {
 	    	'Customer_Phone' => $Customer_Phone,
 	    	'Contract_Date' => $Contract_Date,
 	    	'Due_Date_Live' => $Due_Date_Live,
-	    	'Tech_Data' => $Tech_Data
+	    	'Tech_Data' => $Tech_Data,
+	    	'Status' => $Status,
+	    	'File_Contract' => $new_name
+
 	    	//'dataupload'=> $dataupload
-		);                    
+		);                   
 
 		$this->Isiska->SetDataIsiska($data_siska);
+					redirect('InsertData');
+					$this->load->view('upload_success',$data);
+
+				}
+                else
+				{
+					$error = array('error' => $this->upload->display_errors());
+					$this->load->view('file_view', $error);
+				}
+                //end of file upload code
     }
 
 }

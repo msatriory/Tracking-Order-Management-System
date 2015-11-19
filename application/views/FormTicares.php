@@ -95,7 +95,7 @@
                         <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="<?php echo base_url();?>index.php/Home/do_logout"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -125,10 +125,10 @@
                         
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="ViewData">I-SISCA</a>
+                                    <a href="<?php echo base_url();?>index.php/ViewData">I-SISCA</a>
                                 </li>
                                 <li>
-                                    <a href="ViewDataTicares">TICARES</a>
+                                    <a href="<?php echo base_url();?>index.php/ViewDataTicares">TICARES</a>
                                 </li>
                                 
                             </ul>
@@ -137,10 +137,10 @@
                             <a href="forms.php"><i class="fa fa-edit fa-fw"></i> Input Data<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="InsertData" >I-SISCA</a>
+                                    <a href="<?php echo base_url();?>index.php/InsertData" >I-SISCA</a>
                                 </li>
                                 <li>
-                                    <a href="InsertDataTicares" class="active">TICARES</a>
+                                    <a href="<?php echo base_url();?>index.php/InsertDataTicares" class="active">TICARES</a>
                                 </li>
                                 
                             </ul>
@@ -149,10 +149,10 @@
                             <a href="#"><i class="fa fa-sitemap fa-fw"></i> Account Manager<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="InsertDataAm">Add Manager Account</a>
+                                    <a href="<?php echo base_url();?>index.php/InsertDataAm">Add Manager Account</a>
                                 </li>
                                 <li>
-                                    <a href="ViewDataAm">View List Manager Account</a>
+                                    <a href="<?php echo base_url();?>index.php/ViewDataAm">View List Manager Account</a>
                                 </li>
                                 
                             </ul>

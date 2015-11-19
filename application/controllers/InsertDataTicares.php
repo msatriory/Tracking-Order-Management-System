@@ -26,7 +26,12 @@ class InsertDataTicares extends CI_Controller {
 	 */
 	public function index()
 	{
+		if(!isset($_SESSION['NIK'])){
+			redirect('Home');		
+		}
+		else{
 		$this->load->view('FormTicares');
+		}
 
 	}
 

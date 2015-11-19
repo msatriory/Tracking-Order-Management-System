@@ -33,6 +33,10 @@ class InsertDataAm extends CI_Controller {
 
     function amanager()
     {
+    	if(!isset($_SESSION['NIK'])){
+			redirect('Home');		
+		}
+		else{
     	$NIK_AM = $this->input->post('NIK_AM');
     	$Nama_AM = $this->input->post('Nama_AM');
     	$phone_AM = $this->input->post('phone_AM');
@@ -43,5 +47,6 @@ class InsertDataAm extends CI_Controller {
 	    );
 	    $this->Isiska->SetDataAm($data_am);
         $this->load->view('FormAM');
+    	}
     }
 }

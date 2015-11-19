@@ -95,7 +95,7 @@
                         <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="<?php echo base_url();?>index.php/Home/do_logout"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -125,10 +125,10 @@
                         
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="ViewData">I-SISCA</a>
+                                    <a href="<?php echo base_url();?>index.php/ViewData">I-SISCA</a>
                                 </li>
                                 <li>
-                                    <a href="ViewDataTicares">TICARES</a>
+                                    <a href="<?php echo base_url();?>index.php/ViewDataTicares">TICARES</a>
                                 </li>
                                 
                             </ul>
@@ -137,10 +137,10 @@
                             <a href="forms.php"><i class="fa fa-edit fa-fw"></i> Input Data<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="InsertData" class="active">I-SISCA</a>
+                                    <a href="<?php echo base_url();?>index.php/InsertData" class="active">I-SISCA</a>
                                 </li>
                                 <li>
-                                    <a href="InsertDataTicares" >TICARES</a>
+                                    <a href="<?php echo base_url();?>index.php/InsertDataTicares" >TICARES</a>
                                 </li>
                                 
                             </ul>
@@ -149,10 +149,10 @@
                             <a href="#"><i class="fa fa-sitemap fa-fw"></i> Account Manager<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="InsertDataAm">Add Manager Account</a>
+                                    <a href="<?php echo base_url();?>index.php/InsertDataAm">Add Manager Account</a>
                                 </li>
                                 <li>
-                                    <a href="ViewDataAm">View List Manager Account</a>
+                                    <a href="<?php echo base_url();?>index.php/ViewDataAm">View List Manager Account</a>
                                 </li>
                                 
                             </ul>
@@ -265,15 +265,35 @@
                                     { 
                                       echo '<option value="'.$row->Nama_AM.'">'.$row->Nama_AM.'</option>';
                                     }
-                                    ?>
+                                    ?>                                    
                                 </select>
+                                <!-- Memanggil file .js untuk proses autocomplete -->
+                    <script type='text/javascript' src='<?php echo base_url();?>assets/autocomplete/js/jquery-1.8.2.min.js'></script>
+                    <script type='text/javascript' src='<?php echo base_url();?>assets/autocomplete/js/jquery.autocomplete.js'></script>
+
+                    <!-- Memanggil file .css untuk style saat data dicari dalam filed -->
+                    <link href='<?php echo base_url();?>assets/autocomplete/js/jquery.autocomplete.css' rel='stylesheet' />
+
+                    <!-- Memanggil file .css autocomplete_ci/assets/css/default.css -->
+                    <link href='<?php echo base_url();?>assets/autocomplete/css/default.css' rel='stylesheet' />
+
+                    <script type='text/javascript'>
+                        v$('input[name=AM_Name]').change(function(){
+        $.ajax({
+               url: '<?php echo base_url();?>IndexData',
+              dataType:'json',
+               success: function(result){
+                     $('input[name=AM_Phone]').val(result.Nama_AM);
+               }
+        });
+});
+                    </script>
                     </div>
                 </div>
                 <div class="form-group form-horizontal">
                     <label class="control-label col-sm-2">AM_Phone</label>
                     <div class="input-group col-sm-8">
                         <input type="text" class="form-control" id="AM_Phone" name="AM_Phone" placeholder="AM_Phone">
-
                     </div>
                 </div>
                 <div class="form-group form-horizontal">

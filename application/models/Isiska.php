@@ -35,6 +35,13 @@ class Isiska extends CI_Model {
         $amanager['amanager']=$this->db->query("SELECT * from amanager order by NIK_AM");
         return $amanager;
     }
-}
 
+    public function Listnamaam(){
+        $this->load->database();
+        $amanager['amanager']=$this->db->query("SELECT * from amanager order by NIK_AM");
+        return $amanager;
+    }
+ 
+ 
+}
 ?>

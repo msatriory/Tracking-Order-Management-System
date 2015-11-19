@@ -6,7 +6,7 @@ class ViewData extends CI_Controller {
     {
         parent::__construct();
         $this->load->model('Isiska');
-
+        $this->load->library('session');
          $this->load->library('grocery_CRUD');
     }
 
@@ -27,7 +27,11 @@ class ViewData extends CI_Controller {
 	 */
 	public function index()
 	{
-		$crud = new grocery_CRUD();
+		if(!isset($_SESSION['NIK'])){
+			redirect('Home');		
+		}
+		else{
+			$crud = new grocery_CRUD();
 		// $crud->set_theme('bootstrap');
 		// $crud->set_theme('datatables');
         $crud->set_table('isiska');
@@ -35,6 +39,23 @@ class ViewData extends CI_Controller {
         $crud->order_by('No','desc');
 
 		$crud->display_as('Cust_Name','Name');
+		//  	
+		$crud->set_field_upload('File_Contract','uploads/Contracts');
+		$crud->set_field_upload('File_Report','uploads/Report');
+		$crud->field_type('Customer_Segmen','dropdown',
+            array('DES' => 'DES', 'DBS' => 'DBS'));
+		$crud->field_type('Product','dropdown',
+            array('SPEEDY' => 'SPEEDY', 'SPEEDY GOLD' => 'SPEEDY GOLD'));
+		$crud->field_type('BW_Packet','dropdown',
+            array('1 MBPS' => '1 MBPS', '2 MBPS' => '2 MBPS', '5 MBPS' => '5 MBPS', '10 MBPS' => '10 MBPS', '20 MBPS' => '20 MBPS'));
+		$crud->field_type('Sales_by','dropdown',
+            array('AM' => 'AM', 'SF' => 'SF'));
+		$crud->field_type('Status','dropdown',
+            array('Progress' => 'Progress', 'Closed' => 'Closed'));
+		$crud->unset_add();
+		//$crud->unset_edit();
+		//$crud->add_action('Edit', base_url().'assets/grocery_crud/themes/flexigrid/css/images/edit.png', 'InsertData/index');
+		
 
 		
 
@@ -45,11 +66,17 @@ class ViewData extends CI_Controller {
 		// $isiska = $this->Isiska->Listdata();
 		
 		//$this->load->view('ViewData',$isiska);
+
 		$this->load->view('tables',$output);
+		}
 	}
 
 	public function on_progress()
 	{
+		if ( !isset($_SESSION)){
+			$this->load->view('Home');
+		}
+		else{
 		$crud = new grocery_CRUD();
  
         $crud->set_table('isiska');
@@ -59,6 +86,7 @@ class ViewData extends CI_Controller {
         $output = $crud->render();
  
         $this->_example_output($output);
+    	}
 	}
 
 	function post_action()

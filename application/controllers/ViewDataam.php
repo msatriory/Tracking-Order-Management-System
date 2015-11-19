@@ -6,6 +6,7 @@ class ViewDataam extends CI_Controller {
     {
         parent::__construct();
         $this->load->model('Isiska');
+        $this->load->library('grocery_CRUD');
     }
 
 	/**
@@ -25,14 +26,44 @@ class ViewDataam extends CI_Controller {
 	 */
 	public function index()
 	{
+		if(!isset($_SESSION['NIK'])){
+			redirect('Home');		
+		}
+		else{
+		$crud = new grocery_CRUD();
+		// $crud->set_theme('bootstrap');
+		// $crud->set_theme('datatables');
+        $crud->set_table('amanager');
+		
+		$crud->unset_add();
+		//$crud->unset_edit();
+		//$crud->add_action('Edit', base_url().'assets/grocery_crud/themes/flexigrid/css/images/edit.png', 'InsertData/index');
+		
 
+		
 
+        $output = $crud->render();
+ 
+        //$this->_example_output($output);
 
-		$amanager = $this->Isiska->ListdataAM();
+		// $isiska = $this->Isiska->Listdata();
 		
 		//$this->load->view('ViewData',$isiska);
-		$this->load->view('tablesam',$amanager);
+	$this->load->view('tablesam',$output);
+		}
+
 	}
-	
+
+	function post_action()
+	{   
+	    if($_POST['Status'] == "")
+	    {
+	        $message = "You can't send empty text";
+	    }
+	    else
+	    {
+	        $message = $_POST['Status'];
+	    }
+	    echo $message;
+	}
 }
-?>
